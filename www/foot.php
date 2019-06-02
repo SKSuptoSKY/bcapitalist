@@ -8,9 +8,10 @@ $link = sql_fetch($sql);
 			<div class="footer_logo"><a href="/curriculum.php">
 			<?}else {?>
 			<div class="footer_logo"><a href="/academy.php">
-			<?}?>					
+			<?}?>
 				<img src="/images/main/footer_logo.jpg" alt="주식회사 블록체인투자연구소" />
 			</a></div>
+			asdfasdfasdf
 			<div class="footer_sns">
 				<span><a href="<?=$link[li_link]?>" target="<?=$link[li_target]?>"><img src="/images/main/sns01.jpg" alt="블로그"></a></span>
 				<span><a href="<?=$link[li_link2]?>" target="<?=$link[li_target2]?>"><img src="/images/main/sns02.jpg" alt="페이스북"></a></span>
@@ -22,12 +23,12 @@ $link = sql_fetch($sql);
 				<span><a href="#section1" class="anchorLink">회사소개</a></span>
 				<?}else {?>
 				<span><a href="/academy.php#section1">회사소개</a></span>
-				<?}?>	
+				<?}?>
 				<?if($PHP_SELF=="/academy.php"){?>
 				<span><a href="#section3" class="anchorLink">Team</a></span>
 				<?}else {?>
 				<span><a href="/academy.php#section3">Team</a></span>
-				<?}?>	
+				<?}?>
 				<?if($PHP_SELF=="/curriculum.php"){?>
 				<span><a href="#c_section4" class="anchorLink">파트너</a></span>
 				<?}else {?>
@@ -42,7 +43,7 @@ $link = sql_fetch($sql);
 				<span><a href="#c_section2" class="anchorLink">커리큘럼</a></span>
 				<?}else {?>
 				<span><a href="/curriculum.php#c_section2">커리큘럼</a></span>
-				<?}?>	
+				<?}?>
 			</div>
 			<div class="f-button"><a href="/resist.php">과정등록<img src="/images/main/h_arrow.png" alt=">"></a></div>
 			<div class="footer_lang">
