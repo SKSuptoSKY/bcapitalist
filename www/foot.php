@@ -11,7 +11,6 @@ $link = sql_fetch($sql);
 			<?}?>
 				<img src="/images/main/footer_logo.jpg" alt="주식회사 블록체인투자연구소" />
 			</a></div>
-			asdfasdfasdf
 			<div class="footer_sns">
 				<span><a href="<?=$link[li_link]?>" target="<?=$link[li_target]?>"><img src="/images/main/sns01.jpg" alt="블로그"></a></span>
 				<span><a href="<?=$link[li_link2]?>" target="<?=$link[li_target2]?>"><img src="/images/main/sns02.jpg" alt="페이스북"></a></span>
