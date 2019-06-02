@@ -1,0 +1,281 @@
+2015-06-04 19:59:22 [INFO ] [] XPayClient initialize [/home/utftest/html/module/lgxpay/lgdacom] []
+2015-06-04 19:59:22 [DEBUG] [] Config [server_id] = [01]
+2015-06-04 19:59:22 [DEBUG] [] Config [timeout] = [60]
+2015-06-04 19:59:22 [DEBUG] [] Config [log_level] = [4]
+2015-06-04 19:59:22 [DEBUG] [] Config [verify_cert] = [1]
+2015-06-04 19:59:22 [DEBUG] [] Config [verify_host] = [1]
+2015-06-04 19:59:22 [DEBUG] [] Config [report_error] = [1]
+2015-06-04 19:59:22 [DEBUG] [] Config [output_utf8] = [1]
+2015-06-04 19:59:22 [DEBUG] [] Config [auto_rollback] = [1]
+2015-06-04 19:59:22 [DEBUG] [] Config [log_dir] = [/home/utftest/html/module/lgxpay/lgdacom/log]
+2015-06-04 19:59:22 [DEBUG] [] Config [tlgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 19:59:22 [DEBUG] [] Config [lgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 19:59:22 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2015-06-04 19:59:22 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2015-06-04 19:59:22 [DEBUG] [] Config [aux_url] = [http://xpay.lgdacom.net:7080/xpay/Gateway.do]
+2015-06-04 20:01:29 [INFO ] [] XPayClient initialize [/home/utftest/html/module/lgxpay/lgdacom] []
+2015-06-04 20:01:29 [DEBUG] [] Config [server_id] = [01]
+2015-06-04 20:01:29 [DEBUG] [] Config [timeout] = [60]
+2015-06-04 20:01:29 [DEBUG] [] Config [log_level] = [4]
+2015-06-04 20:01:29 [DEBUG] [] Config [verify_cert] = [1]
+2015-06-04 20:01:29 [DEBUG] [] Config [verify_host] = [1]
+2015-06-04 20:01:29 [DEBUG] [] Config [report_error] = [1]
+2015-06-04 20:01:29 [DEBUG] [] Config [output_utf8] = [1]
+2015-06-04 20:01:29 [DEBUG] [] Config [auto_rollback] = [1]
+2015-06-04 20:01:29 [DEBUG] [] Config [log_dir] = [/home/utftest/html/module/lgxpay/lgdacom/log]
+2015-06-04 20:01:29 [DEBUG] [] Config [tlgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:01:29 [DEBUG] [] Config [lgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:01:29 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2015-06-04 20:01:29 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2015-06-04 20:01:29 [DEBUG] [] Config [aux_url] = [http://xpay.lgdacom.net:7080/xpay/Gateway.do]
+2015-06-04 20:01:51 [INFO ] [] XPayClient initialize [/home/utftest/html/module/lgxpay/lgdacom] []
+2015-06-04 20:01:51 [DEBUG] [] Config [server_id] = [01]
+2015-06-04 20:01:51 [DEBUG] [] Config [timeout] = [60]
+2015-06-04 20:01:51 [DEBUG] [] Config [log_level] = [4]
+2015-06-04 20:01:51 [DEBUG] [] Config [verify_cert] = [1]
+2015-06-04 20:01:51 [DEBUG] [] Config [verify_host] = [1]
+2015-06-04 20:01:51 [DEBUG] [] Config [report_error] = [1]
+2015-06-04 20:01:51 [DEBUG] [] Config [output_utf8] = [1]
+2015-06-04 20:01:51 [DEBUG] [] Config [auto_rollback] = [1]
+2015-06-04 20:01:51 [DEBUG] [] Config [log_dir] = [/home/utftest/html/module/lgxpay/lgdacom/log]
+2015-06-04 20:01:51 [DEBUG] [] Config [tlgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:01:51 [DEBUG] [] Config [lgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:01:51 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2015-06-04 20:01:51 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2015-06-04 20:01:51 [DEBUG] [] Config [aux_url] = [http://xpay.lgdacom.net:7080/xpay/Gateway.do]
+2015-06-04 20:02:04 [INFO ] [] XPayClient initialize [/home/utftest/html/module/lgxpay/lgdacom] []
+2015-06-04 20:02:04 [DEBUG] [] Config [server_id] = [01]
+2015-06-04 20:02:04 [DEBUG] [] Config [timeout] = [60]
+2015-06-04 20:02:04 [DEBUG] [] Config [log_level] = [4]
+2015-06-04 20:02:04 [DEBUG] [] Config [verify_cert] = [1]
+2015-06-04 20:02:04 [DEBUG] [] Config [verify_host] = [1]
+2015-06-04 20:02:04 [DEBUG] [] Config [report_error] = [1]
+2015-06-04 20:02:04 [DEBUG] [] Config [output_utf8] = [1]
+2015-06-04 20:02:04 [DEBUG] [] Config [auto_rollback] = [1]
+2015-06-04 20:02:04 [DEBUG] [] Config [log_dir] = [/home/utftest/html/module/lgxpay/lgdacom/log]
+2015-06-04 20:02:04 [DEBUG] [] Config [tlgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:02:04 [DEBUG] [] Config [lgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:02:04 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2015-06-04 20:02:04 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2015-06-04 20:02:04 [DEBUG] [] Config [aux_url] = [http://xpay.lgdacom.net:7080/xpay/Gateway.do]
+2015-06-04 20:02:18 [INFO ] [] XPayClient initialize [/home/utftest/html/module/lgxpay/lgdacom] []
+2015-06-04 20:02:18 [DEBUG] [] Config [server_id] = [01]
+2015-06-04 20:02:18 [DEBUG] [] Config [timeout] = [60]
+2015-06-04 20:02:18 [DEBUG] [] Config [log_level] = [4]
+2015-06-04 20:02:18 [DEBUG] [] Config [verify_cert] = [1]
+2015-06-04 20:02:18 [DEBUG] [] Config [verify_host] = [1]
+2015-06-04 20:02:18 [DEBUG] [] Config [report_error] = [1]
+2015-06-04 20:02:18 [DEBUG] [] Config [output_utf8] = [1]
+2015-06-04 20:02:18 [DEBUG] [] Config [auto_rollback] = [1]
+2015-06-04 20:02:18 [DEBUG] [] Config [log_dir] = [/home/utftest/html/module/lgxpay/lgdacom/log]
+2015-06-04 20:02:18 [DEBUG] [] Config [tlgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:02:18 [DEBUG] [] Config [lgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:02:18 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2015-06-04 20:02:18 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2015-06-04 20:02:18 [DEBUG] [] Config [aux_url] = [http://xpay.lgdacom.net:7080/xpay/Gateway.do]
+2015-06-04 20:02:36 [INFO ] [] XPayClient initialize [/home/utftest/html/module/lgxpay/lgdacom] []
+2015-06-04 20:02:36 [DEBUG] [] Config [server_id] = [01]
+2015-06-04 20:02:36 [DEBUG] [] Config [timeout] = [60]
+2015-06-04 20:02:36 [DEBUG] [] Config [log_level] = [4]
+2015-06-04 20:02:36 [DEBUG] [] Config [verify_cert] = [1]
+2015-06-04 20:02:36 [DEBUG] [] Config [verify_host] = [1]
+2015-06-04 20:02:36 [DEBUG] [] Config [report_error] = [1]
+2015-06-04 20:02:36 [DEBUG] [] Config [output_utf8] = [1]
+2015-06-04 20:02:36 [DEBUG] [] Config [auto_rollback] = [1]
+2015-06-04 20:02:36 [DEBUG] [] Config [log_dir] = [/home/utftest/html/module/lgxpay/lgdacom/log]
+2015-06-04 20:02:36 [DEBUG] [] Config [tlgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:02:36 [DEBUG] [] Config [lgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:02:36 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2015-06-04 20:02:36 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2015-06-04 20:02:36 [DEBUG] [] Config [aux_url] = [http://xpay.lgdacom.net:7080/xpay/Gateway.do]
+2015-06-04 20:03:42 [INFO ] [] XPayClient initialize [/home/utftest/html/module/lgxpay/lgdacom] []
+2015-06-04 20:03:42 [DEBUG] [] Config [server_id] = [01]
+2015-06-04 20:03:42 [DEBUG] [] Config [timeout] = [60]
+2015-06-04 20:03:42 [DEBUG] [] Config [log_level] = [4]
+2015-06-04 20:03:42 [DEBUG] [] Config [verify_cert] = [1]
+2015-06-04 20:03:42 [DEBUG] [] Config [verify_host] = [1]
+2015-06-04 20:03:42 [DEBUG] [] Config [report_error] = [1]
+2015-06-04 20:03:42 [DEBUG] [] Config [output_utf8] = [1]
+2015-06-04 20:03:42 [DEBUG] [] Config [auto_rollback] = [1]
+2015-06-04 20:03:42 [DEBUG] [] Config [log_dir] = [/home/utftest/html/module/lgxpay/lgdacom/log]
+2015-06-04 20:03:42 [DEBUG] [] Config [tlgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:03:42 [DEBUG] [] Config [lgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:03:42 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2015-06-04 20:03:42 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2015-06-04 20:03:42 [DEBUG] [] Config [aux_url] = [http://xpay.lgdacom.net:7080/xpay/Gateway.do]
+2015-06-04 20:04:39 [INFO ] [] XPayClient initialize [/home/utftest/html/module/lgxpay/lgdacom] [test]
+2015-06-04 20:04:39 [DEBUG] [] Config [server_id] = [01]
+2015-06-04 20:04:39 [DEBUG] [] Config [timeout] = [60]
+2015-06-04 20:04:39 [DEBUG] [] Config [log_level] = [4]
+2015-06-04 20:04:39 [DEBUG] [] Config [verify_cert] = [1]
+2015-06-04 20:04:39 [DEBUG] [] Config [verify_host] = [1]
+2015-06-04 20:04:39 [DEBUG] [] Config [report_error] = [1]
+2015-06-04 20:04:39 [DEBUG] [] Config [output_utf8] = [1]
+2015-06-04 20:04:39 [DEBUG] [] Config [auto_rollback] = [1]
+2015-06-04 20:04:39 [DEBUG] [] Config [log_dir] = [/home/utftest/html/module/lgxpay/lgdacom/log]
+2015-06-04 20:04:39 [DEBUG] [] Config [tlgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:04:39 [DEBUG] [] Config [lgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:04:39 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2015-06-04 20:04:39 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2015-06-04 20:04:39 [DEBUG] [] Config [aux_url] = [http://xpay.lgdacom.net:7080/xpay/Gateway.do]
+2015-06-04 20:04:39 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Post [LGD_TXID] = [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234]
+2015-06-04 20:04:39 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Post [LGD_AUTHCODE] = [3a2079fffca26988cd3bfbd7f4fff66d9cf3fe00]
+2015-06-04 20:04:39 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Post [LGD_MID] = [tlgdacomxpay]
+2015-06-04 20:04:39 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Post [LGD_TXNAME] = [PaymentByKey]
+2015-06-04 20:04:39 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Post [LGD_PAYKEY] = [20150604200439D5E5EEAB129EB1143FE1964A6211909FC6C36339]
+2015-06-04 20:04:39 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] post_string = LGD_TXID=tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234&LGD_AUTHCODE=3a2079fffca26988cd3bfbd7f4fff66d9cf3fe00&LGD_MID=tlgdacomxpay&LGD_TXNAME=PaymentByKey&LGD_PAYKEY=20150604200439D5E5EEAB129EB1143FE1964A6211909FC6C36339
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Result = [
+
+
+
+
+
+
+
+
+
+{"LGD_RESPCODE":"0000","LGD_RESPMSG":"결제성공","LGD_RESPONSE":[{"LGD_BILLKEY":"n/qOwkkdryPSPFw8cKix8tSn4JdrCDVVpzB+6XRr0ng=","LGD_CARDACQUIRER":"41","LGD_IFOS":"373I7C","LGD_MID":"tlgdacomxpay","LGD_FINANCENAME":"신한","LGD_PCANCELFLAG":"1","LGD_FINANCEAUTHNUM":"00000000","LGD_DELIVERYINFO":"","LGD_BUYER":"관리자","LGD_AFFILIATECODE":"AEB039","LGD_TRANSAMOUNT":"3900","LGD_BUYERID":"admin","LGD_OID":"0433262722","LGD_CARDNUM":"6060455065516320","LGD_RECEIVERPHONE":"","LGD_2TR_FLAG":"Y","LGD_DEVICE":"","LGD_TID":"tlgda2015060420044084692","LGD_TIMESTAMP":"20150604200441","LGD_FINANCECODE":"41000","LGD_CARDNOINTYN":"0","LGD_PCANCELSTR":"0","LGD_DISCOUNTUSEYN":"0","LGD_BUYERPHONE":"","LGD_ESCROWYN":"N","LGD_PAYTYPE":"SC0010","LGD_AMOUNT":"3900","LGD_VANCODE":"van0012","LGD_EXCHANGERATE":"1.0","LGD_BUYERSSN":"","LGD_CARDINSTALLMONTH":"00","LGD_RESPMSG":"결제성공","LGD_HASHDATA_BILLKEY":"013ca1e82a1017b7e60aa64a6cb668c7","LGD_PAYDATE":"20150604200441","LGD_PRODUCTINFO":"테스트1","LGD_PRODUCTCODE":"","LGD_HASHDATA":"a2be13a64ab0c46a05b60c90e6929951","LGD_CARDGUBUN1":"0","LGD_CARDGUBUN2":"1","LGD_BUYERADDRESS":"","LGD_RECEIVER":"","LGD_RESPCODE":"0000","LGD_BUYEREMAIL":"sky9s@naver.com","LGD_DISCOUNTUSEAMOUNT":"0"}]}
+]
+2015-06-04 20:04:40 [INFO ] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response Code=[0000], Msg=[��������], Count=1
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_BILLKEY, 0) = n/qOwkkdryPSPFw8cKix8tSn4JdrCDVVpzB+6XRr0ng=
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_CARDACQUIRER, 0) = 41
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_IFOS, 0) = 373I7C
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_MID, 0) = tlgdacomxpay
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_FINANCENAME, 0) = 신한
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_PCANCELFLAG, 0) = 1
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_FINANCEAUTHNUM, 0) = 00000000
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_DELIVERYINFO, 0) = 
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_BUYER, 0) = 관리자
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_AFFILIATECODE, 0) = AEB039
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_TRANSAMOUNT, 0) = 3900
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_BUYERID, 0) = admin
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_OID, 0) = 0433262722
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_CARDNUM, 0) = 6060455065516320
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_RECEIVERPHONE, 0) = 
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_2TR_FLAG, 0) = Y
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_DEVICE, 0) = 
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_TID, 0) = tlgda2015060420044084692
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_TIMESTAMP, 0) = 20150604200441
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_FINANCECODE, 0) = 41000
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_CARDNOINTYN, 0) = 0
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_PCANCELSTR, 0) = 0
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_DISCOUNTUSEYN, 0) = 0
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_BUYERPHONE, 0) = 
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_ESCROWYN, 0) = N
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_PAYTYPE, 0) = SC0010
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_AMOUNT, 0) = 3900
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_VANCODE, 0) = van0012
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_EXCHANGERATE, 0) = 1.0
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_BUYERSSN, 0) = 
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_CARDINSTALLMONTH, 0) = 00
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_RESPMSG, 0) = 결제성공
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_HASHDATA_BILLKEY, 0) = 013ca1e82a1017b7e60aa64a6cb668c7
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_PAYDATE, 0) = 20150604200441
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_PRODUCTINFO, 0) = 테스트1
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_PRODUCTCODE, 0) = 
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_HASHDATA, 0) = a2be13a64ab0c46a05b60c90e6929951
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_CARDGUBUN1, 0) = 0
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_CARDGUBUN2, 0) = 1
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_BUYERADDRESS, 0) = 
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_RECEIVER, 0) = 
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_RESPCODE, 0) = 0000
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_BUYEREMAIL, 0) = sky9s@naver.com
+2015-06-04 20:04:40 [DEBUG] [tlgdacomxpay-012015060420043937d14af302396c88301791b375be04037ec69234] Response (LGD_DISCOUNTUSEAMOUNT, 0) = 0
+2015-06-04 20:25:58 [INFO ] [] XPayClient initialize [/home/utftest/html/module/lgxpay/lgdacom] []
+2015-06-04 20:25:58 [DEBUG] [] Config [server_id] = [01]
+2015-06-04 20:25:58 [DEBUG] [] Config [timeout] = [60]
+2015-06-04 20:25:58 [DEBUG] [] Config [log_level] = [4]
+2015-06-04 20:25:58 [DEBUG] [] Config [verify_cert] = [1]
+2015-06-04 20:25:58 [DEBUG] [] Config [verify_host] = [1]
+2015-06-04 20:25:58 [DEBUG] [] Config [report_error] = [1]
+2015-06-04 20:25:58 [DEBUG] [] Config [output_utf8] = [1]
+2015-06-04 20:25:58 [DEBUG] [] Config [auto_rollback] = [1]
+2015-06-04 20:25:58 [DEBUG] [] Config [log_dir] = [/home/utftest/html/module/lgxpay/lgdacom/log]
+2015-06-04 20:25:58 [DEBUG] [] Config [tlgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:25:58 [DEBUG] [] Config [lgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:25:58 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2015-06-04 20:25:58 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2015-06-04 20:25:58 [DEBUG] [] Config [aux_url] = [http://xpay.lgdacom.net:7080/xpay/Gateway.do]
+2015-06-04 20:26:06 [INFO ] [] XPayClient initialize [/home/utftest/html/module/lgxpay/lgdacom] []
+2015-06-04 20:26:06 [DEBUG] [] Config [server_id] = [01]
+2015-06-04 20:26:06 [DEBUG] [] Config [timeout] = [60]
+2015-06-04 20:26:06 [DEBUG] [] Config [log_level] = [4]
+2015-06-04 20:26:06 [DEBUG] [] Config [verify_cert] = [1]
+2015-06-04 20:26:06 [DEBUG] [] Config [verify_host] = [1]
+2015-06-04 20:26:06 [DEBUG] [] Config [report_error] = [1]
+2015-06-04 20:26:06 [DEBUG] [] Config [output_utf8] = [1]
+2015-06-04 20:26:06 [DEBUG] [] Config [auto_rollback] = [1]
+2015-06-04 20:26:06 [DEBUG] [] Config [log_dir] = [/home/utftest/html/module/lgxpay/lgdacom/log]
+2015-06-04 20:26:06 [DEBUG] [] Config [tlgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:26:06 [DEBUG] [] Config [lgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:26:06 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2015-06-04 20:26:06 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2015-06-04 20:26:06 [DEBUG] [] Config [aux_url] = [http://xpay.lgdacom.net:7080/xpay/Gateway.do]
+2015-06-04 20:27:13 [INFO ] [] XPayClient initialize [/home/utftest/html/module/lgxpay/lgdacom] [test]
+2015-06-04 20:27:13 [DEBUG] [] Config [server_id] = [01]
+2015-06-04 20:27:13 [DEBUG] [] Config [timeout] = [60]
+2015-06-04 20:27:13 [DEBUG] [] Config [log_level] = [4]
+2015-06-04 20:27:13 [DEBUG] [] Config [verify_cert] = [1]
+2015-06-04 20:27:13 [DEBUG] [] Config [verify_host] = [1]
+2015-06-04 20:27:13 [DEBUG] [] Config [report_error] = [1]
+2015-06-04 20:27:13 [DEBUG] [] Config [output_utf8] = [1]
+2015-06-04 20:27:13 [DEBUG] [] Config [auto_rollback] = [1]
+2015-06-04 20:27:13 [DEBUG] [] Config [log_dir] = [/home/utftest/html/module/lgxpay/lgdacom/log]
+2015-06-04 20:27:13 [DEBUG] [] Config [tlgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:27:13 [DEBUG] [] Config [lgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2015-06-04 20:27:13 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2015-06-04 20:27:13 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2015-06-04 20:27:13 [DEBUG] [] Config [aux_url] = [http://xpay.lgdacom.net:7080/xpay/Gateway.do]
+2015-06-04 20:27:13 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Post [LGD_TXID] = [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85]
+2015-06-04 20:27:13 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Post [LGD_AUTHCODE] = [ea184e64e7f2b71a37475dc3316be34bac03c7bf]
+2015-06-04 20:27:13 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Post [LGD_MID] = [tlgdacomxpay]
+2015-06-04 20:27:13 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Post [LGD_TXNAME] = [PaymentByKey]
+2015-06-04 20:27:13 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Post [LGD_PAYKEY] = [20150604202713CD7E697445274BE2F8787A5D7EA33A8FFF5D7ADE]
+2015-06-04 20:27:13 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] post_string = LGD_TXID=tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85&LGD_AUTHCODE=ea184e64e7f2b71a37475dc3316be34bac03c7bf&LGD_MID=tlgdacomxpay&LGD_TXNAME=PaymentByKey&LGD_PAYKEY=20150604202713CD7E697445274BE2F8787A5D7EA33A8FFF5D7ADE
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Result = [
+
+
+
+
+
+
+
+
+
+{"LGD_RESPCODE":"0000","LGD_RESPMSG":"26: ","LGD_RESPONSE":[{"LGD_IFOS":"373I7C","LGD_MID":"tlgdacomxpay","LGD_FINANCENAME":"신한","LGD_DELIVERYINFO":"","LGD_BUYER":"관리자","LGD_BUYERID":"admin","LGD_OID":"5948986029","LGD_RECEIVERPHONE":"","LGD_2TR_FLAG":"Y","LGD_DEVICE":"","LGD_TID":"tlgda2015060420271484738","LGD_TIMESTAMP":"20150604202715","LGD_SAOWNER":"이크레디트","LGD_FINANCECODE":"26","LGD_BUYERPHONE":"01075584205","LGD_ESCROWYN":"Y","LGD_PAYTYPE":"SC0040","LGD_CASFLAG":"R","LGD_CASCAMOUNT":"0","LGD_CASTAMOUNT":"0","LGD_AMOUNT":"3900","LGD_BUYERSSN":".","LGD_RESPMSG":"26: ","LGD_PAYDATE":"20150604202714","LGD_PRODUCTINFO":"테스트1","LGD_CASSEQNO":"000","LGD_PRODUCTCODE":"","LGD_HASHDATA":"13a34b28f0cd816c94f07a4fbea7e402","LGD_BUYERADDRESS":"","LGD_RECEIVER":"","LGD_RESPCODE":"0000","LGD_ACCOUNTNUM":"X3790109318508","LGD_PAYER":"최명진","LGD_BUYEREMAIL":"sky9s@naver.com"}]}
+]
+2015-06-04 20:27:15 [INFO ] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response Code=[0000], Msg=[26: ], Count=1
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_IFOS, 0) = 373I7C
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_MID, 0) = tlgdacomxpay
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_FINANCENAME, 0) = 신한
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_DELIVERYINFO, 0) = 
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_BUYER, 0) = 관리자
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_BUYERID, 0) = admin
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_OID, 0) = 5948986029
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_RECEIVERPHONE, 0) = 
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_2TR_FLAG, 0) = Y
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_DEVICE, 0) = 
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_TID, 0) = tlgda2015060420271484738
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_TIMESTAMP, 0) = 20150604202715
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_SAOWNER, 0) = 이크레디트
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_FINANCECODE, 0) = 26
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_BUYERPHONE, 0) = 01075584205
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_ESCROWYN, 0) = Y
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_PAYTYPE, 0) = SC0040
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_CASFLAG, 0) = R
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_CASCAMOUNT, 0) = 0
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_CASTAMOUNT, 0) = 0
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_AMOUNT, 0) = 3900
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_BUYERSSN, 0) = .
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_RESPMSG, 0) = 26: 
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_PAYDATE, 0) = 20150604202714
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_PRODUCTINFO, 0) = 테스트1
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_CASSEQNO, 0) = 000
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_PRODUCTCODE, 0) = 
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_HASHDATA, 0) = 13a34b28f0cd816c94f07a4fbea7e402
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_BUYERADDRESS, 0) = 
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_RECEIVER, 0) = 
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_RESPCODE, 0) = 0000
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_ACCOUNTNUM, 0) = X3790109318508
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_PAYER, 0) = 최명진
+2015-06-04 20:27:15 [DEBUG] [tlgdacomxpay-01201506042027137df56043c4708155929697965a7db20106701a85] Response (LGD_BUYEREMAIL, 0) = sky9s@naver.com

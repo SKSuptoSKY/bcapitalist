@@ -1,0 +1,64 @@
+* { margin:0px; padding:0px; font-size:12px; }
+html, body, div, table, tr, th, td { margin:0px; padding:0px; font-family:Tahoma,돋움; font-size:12px; }
+html { height:100%; }
+html { filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+body { overflow-y:scroll; background-color:#efefef; height:100%; }
+img { border:0; }
+input, textarea { font-size:12px; font-family:Tahoma,굴림; }
+a,img {selector-dummy: expression(this.hideFocus=true);}
+a:link, a:visited, a:active { text-decoration:none; color:#545454; }
+a:hover { text-decoration:none; color:#ff6600; }
+
+#pop_title { width:630px; height:32px; background:url('zipsearch.png') no-repeat -10px -10px; text-indent:-9000px; overflow:hidden; margin:10px; padding:0px; font-size:0px; }
+#pop_tab { width:630px; height:32px; background:url('zipsearch.png') no-repeat -10px -52px; overflow:hidden; padding:0px; font-size:0px; margin:10px 10px 0px 10px; }
+#pop_tab a.tab1_on { float:left; width:148px; height:32px; background:url('zipsearch.png') no-repeat -10px -52px; overflow:hidden; padding:0px; font-size:0px; margin:0px; }
+#pop_tab a.tab1 { float:left; width:140px; height:32px; background:url('zipsearch.png') no-repeat -10px -562px; overflow:hidden; padding:0px; font-size:0px; margin:0px; }
+#pop_tab a.tab2_on { float:left; width:148px; height:32px; background:url('zipsearch.png') no-repeat -150px -562px; overflow:hidden; padding:0px; font-size:0px; margin:0px; }
+#pop_tab a.tab2 { float:left; width:124px; height:32px; background:url('zipsearch.png') no-repeat -158px -52px; overflow:hidden; padding:0px; font-size:0px; margin:0px; }
+
+.pop_content { width:628px; height:450px; margin:0px 10px 10px 10px; padding:0px; border-right: 1px solid #dddddd; border-bottom: 1px solid #ddd; border-left: 1px solid #dddddd; background:#fff; }
+.pop_content table.loding { float:left; width:626px; height:463px; text-align:center; }
+.pop_content .search_help_zip { float:left; float:left; width:608px; height:75px; line-height:18px; color:#888; padding:10px; }
+.pop_content .search_help_zip b { color:#ae00ff; }
+#help2 { display:none; }
+
+.pop_content .search_area_zip { float:left; width:608px; height:35px; line-height:35px; background:#ddd; padding:0px 10px 0px 10px; }
+.pop_content .search_area_zip select { vertical-align:top; margin:6px 0px 0px 0px; color:#666; }
+.pop_content .search_area_zip .text { width:180px; height:18px; line-height:18px; border: 1px solid #ccc; vertical-align:top; margin:6px 0px 0px 0px; }
+.pop_content .search_area_zip .text1 { width:100px; height:18px; line-height:18px; border: 1px solid #ccc; vertical-align:top; margin:6px 0px 0px 0px; color:#888; }
+.pop_content .search_area_zip .search_btn { width:37px; height:20px; background:url('zipsearch.png') no-repeat -329px -187px; overflow:hidden; border:0px; text-indent:-9000px; vertical-align:top; margin:7px 0px 0px 0px; }
+.pop_content .search_zip_result { float:left; width:628px; height:285px; }
+.pop_content .search_zip_result table.list_table { width:628px; border-collapse:collapse; }
+.pop_content .search_zip_result table.list_table th { height:30px; border-bottom: 1px solid #ddd; }
+.pop_content .search_zip_result table.list_table th.left { text-align:left; border-left: 1px solid #eee; padding:0px 0px 0px 10px; }
+.pop_content .search_zip_result table.list_table td { border-bottom: 1px solid #eee; padding:5px 0px 5px 0px; text-align:center; }
+.pop_content .search_zip_result table.list_table td.left { text-align:left; border-bottom: 1px solid #eee; border-left: 1px solid #eee; padding:5px 0px 5px 10px; }
+.pop_content .search_zip_result table.list_table tr.list_on { background:#f8f8f8; }
+.pop_content .search_zip_result table.list_table td.nolist { height:50px; text-align:center; border-bottom: 1px solid #eee; color:#666; }
+
+.pop_content .search_zip_result .search_zip_page { float:left; width:628px; text-align:center; height:50px; }
+.pop_content .search_zip_result .search_zip_page table { border-collapse:collapse; border-spacing:0; margin:10px auto 0px auto; }
+.pop_content .search_zip_result .search_zip_page ul, .pop_content .search_zip_result .search_zip_page li { list-style:none; margin:0px; padding:0px; }
+.pop_content .search_zip_result .search_zip_page ul { margin:0px auto; }
+.pop_content .search_zip_result .search_zip_page li { float:left; line-height:18px; margin:10px 1px 10px 1px; }
+.pop_content .search_zip_result .search_zip_page li a.home { float:left; width:20px; height:20px; background:url('zipsearch.png') no-repeat -263px -457px; text-indent:-9000px; overflow:hidden; font-size:0px; }
+.pop_content .search_zip_result .search_zip_page li a.home:hover { float:left; width:20px; height:20px; background:url('zipsearch.png') no-repeat -263px -479px; text-indent:-9000px; overflow:hidden; font-size:0px; }
+.pop_content .search_zip_result .search_zip_page li a.pre { float:left; width:20px; height:20px; background:url('zipsearch.png') no-repeat -288px -457px; text-indent:-9000px; overflow:hidden; font-size:0px; }
+.pop_content .search_zip_result .search_zip_page li a.pre:hover { float:left; width:20px; height:20px; background:url('zipsearch.png') no-repeat -288px -479px; text-indent:-9000px; overflow:hidden; font-size:0px; }
+.pop_content .search_zip_result .search_zip_page li a.next { float:left; width:20px; height:20px; background:url('zipsearch.png') no-repeat -313px -457px; text-indent:-9000px; overflow:hidden; font-size:0px; }
+.pop_content .search_zip_result .search_zip_page li a.next:hover { float:left; width:20px; height:20px; background:url('zipsearch.png') no-repeat -313px -479px; text-indent:-9000px; overflow:hidden; font-size:0px; }
+.pop_content .search_zip_result .search_zip_page li a.end { float:left; width:20px; height:20px; background:url('zipsearch.png') no-repeat -338px -457px; text-indent:-9000px; overflow:hidden; font-size:0px; }
+.pop_content .search_zip_result .search_zip_page li a.end:hover { float:left; width:20px; height:20px; background:url('zipsearch.png') no-repeat -338px -479px; text-indent:-9000px; overflow:hidden; font-size:0px; }
+.pop_content .search_zip_result .search_zip_page li a.nm { float:left; border:1px solid #b6b6b6; padding:0px 5px 0px 5px; }
+.pop_content .search_zip_result .search_zip_page li.on { font-weight:bold; }
+.pop_content .search_zip_result .search_zip_page li.on a.nm { border:1px solid #ffba00; padding:0px 5px 0px 5px; color:#ff6600; }
+.pop_content .search_zip_result .search_zip_page li.on a.nm:hover { border:1px solid #ffba00; padding:0px 5px 0px 5px; color:#000; }
+
+.pop_content .pop_tailer { float:left; width:618px; height:24px; }
+.pop_content .pop_tailer a.btn_close { float:right; width:59px; height:24px; background:url('zipsearch.png') no-repeat -574px -519px; overflow:hidden; text-indent:-9000px; padding:0px; font-size:0px; margin:0px; }
+
+
+/* 샘플 */
+#spbox { width:100%; text-align:center; }
+#spbox .samplebx_title { width:400px; height:40px; margin:100px auto 10px auto; font-weight:bold; font-size:18px; text-align:left; }
+#spbox .samplebx { width:360px; margin:10px auto 10px auto; text-align:left; border:4px solid #ddd; padding:20px }

@@ -1,0 +1,18 @@
+/* 
+* agency_search - 매장현황 전용 CSS
+* 게시판 스킨 agency_search 사용시 적용됨
+*/
+
+/*전국 대리점현황 (매장)*/
+.map_Wrap{width:910px; border:0px solid red; }
+.map{float:left; width:280px; height:350px; border:0px solid blue;}
+.store{float:left; width:590px; height:302px;  border:0px solid green;}
+
+.view{width:590px; padding-top:0px; border-top:2px solid #444; border-bottom:1px solid #c4c4c4;}
+.view01{width:590px; padding-top:5px; border-bottom:1px solid #c4c4c4;}
+.viewfont{font-weight:bold;}
+.viewfontao{font-weight:bold;}
+.viewfontvo{font-weight:bold;}
+.viewfonteo{font-weight:bold;}
+.viewfont01{padding-top:5px;}
+.viewfont03{padding-top:5px;}

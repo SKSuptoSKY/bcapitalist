@@ -1,0 +1,634 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>NAVER :: Smart Editor 2 &#8482;</title>
+<link href="./css/smart_editor2.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./js/jindo.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="./js/jindo_component.js" charset="utf-8"></script>
+<script type="text/javascript" src="./js/SE2B_Configuration.js" charset="utf-8"></script>
+<script type="text/javascript" src="./js/SE2BasicCreator.js" charset="utf-8"></script>
+
+<script src='js/loader-min.js' charset='utf-8'></script>
+<style type="text/css">
+body{margin:0; padding:0;}
+</style>
+
+<body>
+
+<!-- SE2 Markup Start -->
+<div width="98%" style="width:98%;" id="smart_editor2">
+	<div id="smart_editor2_content"><a href="#se2_iframe" class="blind">To the area of writing</a>
+		<div class="se2_tool">
+			<!-- icon toolbar -->
+			<div class="se2_icon_tool" style="display:block;">
+				<ul class="se2_itool1">
+					<li class="se2_mn husky_seditor_ui_photo_attach"><button type="button" class="se2_photo se2_wty2_ic se2_mfirst"><span class="se2_icon"></span><span class="se2_mntxt">Photo</span></button></li>
+				</ul>
+			</div>
+			<!-- //704이상 -->
+							
+			<!-- 텍스트 툴바 -->
+			<div class="se2_text_tool">
+				<ul class="se2_font_type">
+				<li class="husky_seditor_ui_fontName"><button type="button" title="Font Face" class="se2_font_family"><span class="husky_se2m_current_fontName">Font Face</span></button> 
+					<!-- 글꼴 레이어 -->
+					<div class="se2_layer husky_se_fontName_layer">
+						<div class="se2_in_layer">
+							<ul class="se2_l_font_fam" style="display:">
+							<li style="display:none"><button type="button"><span>@DisplayName@<span>(</span><em style="font-family:FontFamily;">ABCD</em><span>)</span></span></button></li>
+							<li class="se2_division husky_seditor_font_separator"></li>
+							<li class="husky_seditor_font_nanumgothic"><button type="button"><span>nanumgothic<span>(</span><em style="font-family:'나눔고딕',NanumGothic,Sans-serif;">ABCD</em><span>)</span></span></button></li>
+							<li class="husky_seditor_font_nanummyeongjo"><button type="button"><span>nanummyeongjo<span>(</span><em style="font-family:'나눔명조',NanumMyeongjo,serif;">ABCD</em><span>)</span></span></button></li>
+							</ul>
+						</div>
+					</div>
+					<!-- //글꼴 레이어 -->
+				</li>
+				<li class="husky_seditor_ui_fontSize"><button type="button" title="Size" class="se2_font_size"><span class="husky_se2m_current_fontSize">Size</span></button>
+					<!-- 폰트 사이즈 레이어 -->
+					<div class="se2_layer husky_se_fontSize_layer">
+						<div class="se2_in_layer">
+							<ul class="se2_l_font_size">
+							<li><button type="button" style="height:19px;"><span style="margin-top:4px; margin-bottom:3px; margin-left:5px; font-size:7pt;">ABCDEFG<span style=" font-size:7pt;">(7pt)</span></span></button></li>
+							<li><button type="button" style="height:20px;"><span style="margin-bottom:2px; font-size:8pt;">ABCDEFG<span style="font-size:8pt;">(8pt)</span></span></button></li>
+							<li><button type="button" style="height:20px;"><span style="margin-bottom:1px; font-size:9pt;">ABCDEFG<span style="font-size:9pt;">(9pt)</span></span></button></li>
+							<li><button type="button" style="height:21px;"><span style="margin-bottom:1px; font-size:10pt;">ABCDEFG<span style="font-size:10pt;">(10pt)</span></span></button></li>
+							<li><button type="button" style="height:23px;"><span style="margin-bottom:2px; font-size:11pt;">ABCDEFG<span style="font-size:11pt;">(11pt)</span></span></button></li>
+							<li><button type="button" style="height:25px;"><span style="margin-bottom:1px; font-size:12pt;">ABCDEFG<span style="font-size:12pt;">(12pt)</span></span></button></li>
+							<li><button type="button" style="height:27px;"><span style="margin-bottom:2px; font-size:14pt;">ABCDEFG<span style="margin-left:6px;font-size:14pt;">(14pt)</span></span></button></li>
+							<li><button type="button" style="height:33px;"><span style="margin-bottom:1px; font-size:18pt;">ABCDEFG<span style="margin-left:8px;font-size:18pt;">(18pt)</span></span></button></li>
+							<li><button type="button" style="height:39px;"><span style="margin-left:3px; font-size:24pt;">ABCDEFG<span style="margin-left:11px;font-size:24pt;">(24pt)</span></span></button></li>
+							<li><button type="button" style="height:53px;"><span style="margin-top:-1px; margin-left:3px; font-size:36pt;">ABC<span style="font-size:36pt;">(36pt)</span></span></button></li>
+							</ul>
+						</div>
+					</div>
+					<!-- //폰트 사이즈 레이어 -->
+				</li>
+				</ul>
+				<ul class="se2_font_style">
+				<li class="husky_seditor_ui_bold"><button type="button" title="Bold[Ctrl+B]" class="se2_bold"><span>Bold[Ctrl+B]</span></button></li>
+				<li class="husky_seditor_ui_underline"><button type="button" title="Underline[Ctrl+U]" class="se2_underline"><span>Underline[Ctrl+U]</span></button></li>
+				<li class="husky_seditor_ui_italic"><button type="button" title="Italic[Ctrl+I]" class="se2_italic"><span>Italic[Ctrl+I]</span></button></li>
+				<li class="husky_seditor_ui_lineThrough"><button type="button" title="LineThrough[Ctrl+D]" class="se2_tdel"><span>LineThrough[Ctrl+D]</span></button></li>
+				<li class="se2_pair husky_seditor_ui_fontColor"><span class="husky_seditor_ui_fontColorA"><button type="button" title="Font Color" class="se2_fcolor husky_se2m_fontColor_lastUsed" style="background-color:#4477f9;">
+				<span>Font Color</span></button></span><span class="husky_seditor_ui_fontColorB"><button type="button" title="More" class="se2_fcolor_more"><span>More</span></button></span>
+					<!-- 글자색 -->
+					<div class="se2_layer husky_se2m_fontcolor_layer" style="display:none">
+						<div class="se2_in_layer husky_se2m_fontcolor_paletteHolder">
+							<div class="se2_palette husky_se2m_color_palette">
+								<ul class="se2_pick_color">
+								<li><button type="button" title="#ff0000" style="background:#ff0000"><span><span>#ff0000</span></span></button></li>
+								<li><button type="button" title="#ff6c00" style="background:#ff6c00"><span><span>#ff6c00</span></span></button></li>
+								<li><button type="button" title="#ffaa00" style="background:#ffaa00"><span><span>#ffaa00</span></span></button></li>
+								<li><button type="button" title="#ffef00" style="background:#ffef00"><span><span>#ffef00</span></span></button></li>
+								<li><button type="button" title="#a6cf00" style="background:#a6cf00"><span><span>#a6cf00</span></span></button></li>
+								<li><button type="button" title="#009e25" style="background:#009e25"><span><span>#009e25</span></span></button></li>
+								<li><button type="button" title="#00b0a2" style="background:#00b0a2"><span><span>#00b0a2</span></span></button></li>
+								<li><button type="button" title="#0075c8" style="background:#0075c8"><span><span>#0075c8</span></span></button></li>
+								<li><button type="button" title="#3a32c3" style="background:#3a32c3"><span><span>#3a32c3</span></span></button></li>
+								<li><button type="button" title="#7820b9" style="background:#7820b9"><span><span>#7820b9</span></span></button></li>
+								<li><button type="button" title="#ef007c" style="background:#ef007c"><span><span>#ef007c</span></span></button></li>
+								<li><button type="button" title="#000000" style="background:#000000"><span><span>#000000</span></span></button></li>
+								<li><button type="button" title="#252525" style="background:#252525"><span><span>#252525</span></span></button></li>
+								<li><button type="button" title="#464646" style="background:#464646"><span><span>#464646</span></span></button></li>
+								<li><button type="button" title="#636363" style="background:#636363"><span><span>#636363</span></span></button></li>
+								<li><button type="button" title="#7d7d7d" style="background:#7d7d7d"><span><span>#7d7d7d</span></span></button></li>
+								<li><button type="button" title="#9a9a9a" style="background:#9a9a9a"><span><span>#9a9a9a</span></span></button></li>
+								<li><button type="button" title="#ffe8e8" style="background:#ffe8e8"><span><span>#9a9a9a</span></span></button></li>
+								<li><button type="button" title="#f7e2d2" style="background:#f7e2d2"><span><span>#f7e2d2</span></span></button></li>
+								<li><button type="button" title="#f5eddc" style="background:#f5eddc"><span><span>#f5eddc</span></span></button></li>
+								<li><button type="button" title="#f5f4e0" style="background:#f5f4e0"><span><span>#f5f4e0</span></span></button></li>
+								<li><button type="button" title="#edf2c2" style="background:#edf2c2"><span><span>#edf2c2</span></span></button></li>
+								<li><button type="button" title="#def7e5" style="background:#def7e5"><span><span>#def7e5</span></span></button></li>
+								<li><button type="button" title="#d9eeec" style="background:#d9eeec"><span><span>#d9eeec</span></span></button></li>
+								<li><button type="button" title="#c9e0f0" style="background:#c9e0f0"><span><span>#c9e0f0</span></span></button></li>
+								<li><button type="button" title="#d6d4eb" style="background:#d6d4eb"><span><span>#d6d4eb</span></span></button></li>
+								<li><button type="button" title="#e7dbed" style="background:#e7dbed"><span><span>#e7dbed</span></span></button></li>
+								<li><button type="button" title="#f1e2ea" style="background:#f1e2ea"><span><span>#f1e2ea</span></span></button></li>
+								<li><button type="button" title="#acacac" style="background:#acacac"><span><span>#acacac</span></span></button></li>
+								<li><button type="button" title="#c2c2c2" style="background:#c2c2c2"><span><span>#c2c2c2</span></span></button></li>
+								<li><button type="button" title="#cccccc" style="background:#cccccc"><span><span>#cccccc</span></span></button></li>
+								<li><button type="button" title="#e1e1e1" style="background:#e1e1e1"><span><span>#e1e1e1</span></span></button></li>
+								<li><button type="button" title="#ebebeb" style="background:#ebebeb"><span><span>#ebebeb</span></span></button></li>
+								<li><button type="button" title="#ffffff" style="background:#ffffff"><span><span>#ffffff</span></span></button></li>
+								</ul>
+								<ul class="se2_pick_color" style="width:156px;">
+								<li><button type="button" title="#e97d81" style="background:#e97d81"><span><span>#e97d81</span></span></button></li>
+								<li><button type="button" title="#e19b73" style="background:#e19b73"><span><span>#e19b73</span></span></button></li>
+								<li><button type="button" title="#d1b274" style="background:#d1b274"><span><span>#d1b274</span></span></button></li>
+								<li><button type="button" title="#cfcca2" style="background:#cfcca2"><span><span>#cfcca2</span></span></button></li>
+								<li><button type="button" title="#cfcca2" style="background:#cfcca2"><span><span>#cfcca2</span></span></button></li>
+								<li><button type="button" title="#61b977" style="background:#61b977"><span><span>#61b977</span></span></button></li>
+								<li><button type="button" title="#53aea8" style="background:#53aea8"><span><span>#53aea8</span></span></button></li>
+								<li><button type="button" title="#518fbb" style="background:#518fbb"><span><span>#518fbb</span></span></button></li>
+								<li><button type="button" title="#6a65bb" style="background:#6a65bb"><span><span>#6a65bb</span></span></button></li>
+								<li><button type="button" title="#9a54ce" style="background:#9a54ce"><span><span>#9a54ce</span></span></button></li>
+								<li><button type="button" title="#e573ae" style="background:#e573ae"><span><span>#e573ae</span></span></button></li>
+								<li><button type="button" title="#5a504b" style="background:#5a504b"><span><span>#5a504b</span></span></button></li>
+								<li><button type="button" title="#767b86" style="background:#767b86"><span><span>#767b86</span></span></button></li>
+								<li><button type="button" title="#951015" style="background:#951015"><span><span>#951015</span></span></button></li>
+								<li><button type="button" title="#6e391a" style="background:#6e391a"><span><span>#6e391a</span></span></button></li>
+								<li><button type="button" title="#785c25" style="background:#785c25"><span><span>#785c25</span></span></button></li>
+								<li><button type="button" title="#5f5b25" style="background:#5f5b25"><span><span>#5f5b25</span></span></button></li>
+								<li><button type="button" title="#4c511f" style="background:#4c511f"><span><span>#4c511f</span></span></button></li>
+								<li><button type="button" title="#1c4827" style="background:#1c4827"><span><span>#1c4827</span></span></button></li>
+								<li><button type="button" title="#0d514c" style="background:#0d514c"><span><span>#0d514c</span></span></button></li>
+								<li><button type="button" title="#1b496a" style="background:#1b496a"><span><span>#1b496a</span></span></button></li>
+								<li><button type="button" title="#2b285f" style="background:#2b285f"><span><span>#2b285f</span></span></button></li>
+								<li><button type="button" title="#45245b" style="background:#45245b"><span><span>#45245b</span></span></button></li>
+								<li><button type="button" title="#721947" style="background:#721947"><span><span>#721947</span></span></button></li>
+								<li><button type="button" title="#352e2c" style="background:#352e2c"><span><span>#352e2c</span></span></button></li>
+								<li><button type="button" title="#3c3f45" style="background:#3c3f45"><span><span>#3c3f45</span></span></button></li>
+								</ul>
+								<button type="button" class="se2_view_more husky_se2m_color_palette_more_btn"><span>More</span></button>
+								<div class="se2_palette2 husky_se2m_color_palette_colorpicker">
+									<div class="se2_color_set">
+										<span class="se2_selected_color"><span class="husky_se2m_cp_preview" style="background:#e97d81"></span></span><input type="text" name="" class="input_ty1 husky_se2m_cp_colorcode" value="#e97d81"><button type="button"  class="se2_btn_insert husky_se2m_color_palette_ok_btn"><span>Input</span></button>
+									</div>
+									<div class="se2_gradation1 husky_se2m_cp_colpanel"></div>
+									<div class="se2_gradation2 husky_se2m_cp_huepanel"></div>
+								</div>
+							</div>
+	                    </div>
+					</div>
+	                <!-- //글자색 -->
+				</li>
+				<li class="se2_pair husky_seditor_ui_BGColor"><span class="husky_seditor_ui_BGColorA"><button type="button" title="Background Color" class="se2_bgcolor husky_se2m_BGColor_lastUsed" style="background-color:#4477f9;"><span>Background Color</span></button></span><span class="husky_seditor_ui_BGColorB"><button type="button" title="More" class="se2_bgcolor_more"><span>More</span></button></span>
+					<!-- 배경색 -->
+					<div class="se2_layer se2_layer husky_se2m_BGColor_layer" style="display:none">
+						<div class="se2_in_layer">
+							<div class="se2_palette_bgcolor">
+								<ul class="se2_background husky_se2m_bgcolor_list">
+								<li><button type="button" title="#ff0000" style="background:#ff0000; color:#ffffff"><span><span>ABC</span></span></button></li>								
+								<li><button type="button" title="#6d30cf" style="background:#6d30cf; color:#ffffff"><span><span>ABC</span></span></button></li>
+								<li><button type="button" title="#000000" style="background:#000000; color:#ffffff"><span><span>ABC</span></span></button></li>
+								<li><button type="button" title="#ff6600" style="background:#ff6600; color:#ffffff"><span><span>ABC</span></span></button></li>
+								<li><button type="button" title="#3333cc" style="background:#3333cc; color:#ffffff"><span><span>ABC</span></span></button></li>
+								<li><button type="button" title="#333333" style="background:#333333; color:#ffff00"><span><span>ABC</span></span></button></li>
+								<li><button type="button" title="#ffa700" style="background:#ffa700; color:#ffffff"><span><span>ABC</span></span></button></li>
+								<li><button type="button" title="#009999" style="background:#009999; color:#ffffff"><span><span>ABC</span></span></button></li>
+								<li><button type="button" title="#8e8e8e" style="background:#8e8e8e; color:#ffffff"><span><span>ABC</span></span></button></li>								
+								<li><button type="button" title="#cc9900" style="background:#cc9900; color:#ffffff"><span><span>ABC</span></span></button></li>
+								<li><button type="button" title="#77b02b" style="background:#77b02b; color:#ffffff"><span><span>ABC</span></span></button></li>
+								<li><button type="button" title="#ffffff" style="background:#ffffff; color:#000000"><span><span>ABC</span></span></button></li>
+								</ul>
+							</div>
+							<div class="husky_se2m_BGColor_paletteHolder"></div>
+	                    </div>
+					</div>
+	                <!-- //배경색 -->
+				</li>
+				<li class="husky_seditor_ui_superscript"><button type="button" title="Superscript" class="se2_sup"><span>Superscript</span></button></li>
+				<li class="husky_seditor_ui_subscript"><button type="button" title="Subscript" class="se2_sub"><span>Subscript</span></button></li>
+				</ul>
+				<ul class="se2_paragraph">
+					<li class="husky_seditor_ui_justifyleft"><button type="button" title="JustifyLeft" class="se2_left"><span>JustifyLeft</span></button></li>
+					<li class="husky_seditor_ui_justifycenter"><button type="button" title="JustifyCenter" class="se2_center"><span>JustifyCenter</span></button></li>
+					<li class="husky_seditor_ui_justifyright"><button type="button" title="JustifyRight" class="se2_right"><span>JustifyRight</span></button></li>
+					<li class="husky_seditor_ui_lineHeight"><button type="button" title="LineHeight" class="se2_lineheight" ><span>LineHeight</span></button>
+						<!-- 줄간격 레이어 -->
+						<div class="se2_layer husky_se2m_lineHeight_layer">
+							<div class="se2_in_layer">
+								<ul class="se2_l_line_height">
+								<li><button type="button"><span>50%</span></button></li>
+								<li><button type="button"><span>80%</span></button></li>
+								<li><button type="button"><span>100%</span></button></li>
+								<li><button type="button"><span>120%</span></button></li>
+								<li><button type="button"><span>150%</span></button></li>
+								<li><button type="button"><span>180%</span></button></li>
+								<li><button type="button"><span>200%</span></button></li>
+								</ul>
+								<div class="se2_l_line_height_user husky_se2m_lineHeight_direct_input">
+									<h3>Direct input</h3>
+									<span class="bx_input">
+									<input type="text" class="input_ty1" maxlength="3" style="width:75px">
+									<button type="button" title="Plus 1%" class="btn_up"><span>Plus 1%</span></button>
+									<button type="button" title="Minus 1%" class="btn_down"><span>Minus 1%</span></button>
+									</span>		
+									<div class="btn_area">
+										<button type="button" class="se2_btn_apply3"><span>Apply</span></button><button type="button" class="se2_btn_cancel3"><span>Cancel</span></button>
+									</div>
+	
+								</div>
+							</div>
+						</div>
+						<!-- //줄간격 레이어 -->
+					</li>
+					</ul>
+					<ul class="se2_etc se2_text_tool_view_more">
+					<li class="husky_seditor_ui_text_more " id="se2_text_more"><button title="More" type="button" class="se2_text_tool_more"><span>More</span></button>
+						<div class="se2_sub_text_tool se2_sub_step1">
+							<ul class="se2_etc">
+							<li class="husky_seditor_ui_orderedlist"><button type="button" title="orderedlist" class="se2_ol"><span>orderedlist</span></button></li>
+							<li class="husky_seditor_ui_unorderedlist"><button type="button" title="unorderedlist" class="se2_ul"><span>unorderedlist</span></button></li>
+							<li class="husky_seditor_ui_outdent"><button type="button" title="outdent[Tab]" class="se2_indent"><span>outdent[Tab]</span></button></li>
+							<li class="husky_seditor_ui_indent"><button type="button" title="indent[Shift+Tab]" class="se2_outdent"><span>indent[Shift+Tab]</span></button></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+				<ul class="se2_etc">				
+				<li class="husky_seditor_ui_quote"><button type="button" title="Quote" class="se2_blockquote"><span>Quote</span></button>
+					<!-- 인용구 -->
+					<div class="se2_layer husky_seditor_blockquote_layer" style="margin-left:-407px; display:none;">
+						<div class="se2_in_layer">
+							<div class="se2_quote">
+								<ul>
+								<li class="q1"><button type="button" class="se2_quote1"><span><span>Quote1</span></span></button></li>
+								<li class="q2"><button type="button" class="se2_quote2"><span><span>Quote2</span></span></button></li>
+								<li class="q3"><button type="button" class="se2_quote3"><span><span>Quote3</span></span></button></li>
+								<li class="q4"><button type="button" class="se2_quote4"><span><span>Quote4</span></span></button></li>
+								<li class="q5"><button type="button" class="se2_quote5"><span><span>Quote5</span></span></button></li>
+								<li class="q6"><button type="button" class="se2_quote6"><span><span>Quote6</span></span></button></li>
+								<li class="q7"><button type="button" class="se2_quote7"><span><span>Quote7</span></span></button></li>
+								<li class="q8"><button type="button" class="se2_quote8"><span><span>Quote8</span></span></button></li>
+								<li class="q9"><button type="button" class="se2_quote9"><span><span>Quote9</span></span></button></li>
+								<li class="q10"><button type="button" class="se2_quote10"><span><span>Quote10</span></span></button></li>
+								</ul>
+								<button type="button" class="se2_cancel2"><span>Cancel</span></button>
+							</div>
+						</div>
+					</div>
+					<!-- //인용구 -->
+				</li>
+				</ul>
+				<ul class="se2_etc">
+				<li class="husky_seditor_ui_hyperlink"><button type="button" title="Link" class="se2_url"><span>Link</span></button>
+					<!-- 링크 -->
+					<div class="se2_layer" style="margin-left:-285px">
+						<div class="se2_in_layer">
+							<div class="se2_url2">
+								<input type="text" class="input_ty1" value="http://">
+								<button type="button" class="se2_apply"><span>Apply</span></button><button type="button" class="se2_cancel"><span>Cancel</span></button>
+							</div>
+						</div>
+					</div>
+					<!-- //링크 -->
+				</li>
+				<li class="husky_seditor_ui_sCharacter"><button type="button" title="Special symbols" class="se2_character"><span>Special symbols</span></button>
+					<!-- 특수기호 -->
+					<div class="se2_layer husky_seditor_sCharacter_layer" style="margin-left:-448px;">
+						<div class="se2_in_layer">
+							<div class="se2_bx_character">
+								<ul class="se2_char_tab">
+								<li class="active"><button type="button" class="se2_char1"><span>General symbols</span></button>
+									<div class="se2_s_character">
+										<ul class="husky_se2m_sCharacter_list"><li></li></ul>
+									</div>
+								</li>
+								<li class=""><button type="button" class="se2_char2"><span>Number,Units</span></button>
+	
+									<div class="se2_s_character">
+										<ul class="husky_se2m_sCharacter_list"><li></li></ul>
+									</div>
+								</li>
+								<li class=""><button type="button" class="se2_char3"><span>Circle</span></button>
+									<div class="se2_s_character">
+										<ul class="husky_se2m_sCharacter_list"><li></li></ul>
+									</div>
+	
+								</li>
+								<li class=""><button type="button" class="se2_char4"><span>Hangul</span></button>
+									<div class="se2_s_character">
+										<ul class="husky_se2m_sCharacter_list"><li></li></ul>
+									</div>
+								</li>
+								<li class=""><button type="button" class="se2_char5"><span>Greece,Latin</span></button>
+									<div class="se2_s_character">
+	
+										<ul class="husky_se2m_sCharacter_list"><li></li></ul>
+									</div>
+								</li>
+								<li class=""><button type="button" class="se2_char6"><span>Japanese</span></button>
+									<div class="se2_s_character">
+										<ul class="husky_se2m_sCharacter_list"><li></li></ul>
+									</div>
+								</li>
+								</ul>
+								<p class="se2_apply_character">
+									<label for="char_preview">Selected</label> <input type="text" name="char_preview" id="char_preview" value="®º⊆●○" class="input_ty1"><button type="button" class="se2_confirm"><span>Apply</span></button><button type="button" class="se2_cancel husky_se2m_sCharacter_close"><span>Cancel</span></button>
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- //특수기호 -->
+				</li>
+				<li class="husky_seditor_ui_table"><button type="button" title="Table" class="se2_table"><span>Table</span></button>
+					<!-- 표 -->
+					<div class="se2_layer husky_se2m_table_layer" style="margin-left:-171px">
+						<div class="se2_in_layer">
+							<div class="se2_table_set">
+								<fieldset>
+								<legend>Specify Table</legend>
+									<dl class="se2_cell_num">
+									<dt><label for="row">Line</label></dt>
+									<dd><input id="row" name="" type="text" maxlength="2" value="4" class="input_ty2">
+										<button type="button" title="Add line 1" class="se2_add"><span>Add line 1</span></button>
+										<button type="button" title="Delete 1 line" class="se2_del"><span>Delete 1 line</span></button>
+									</dd>
+									<dt><label for="col">Row</label></dt>
+									<dd><input id="col" name="" type="text" maxlength="2" value="4" class="input_ty2">
+										<button type="button" title="Add Row 1" class="se2_add"><span>Add Row 1</span></button>
+										<button type="button" title="Delete 1 row" class="se2_del"><span>Delete 1 row</span></button>
+									</dd>
+									</dl>
+									<table border="0" cellspacing="1" class="se2_pre_table husky_se2m_table_preview">
+									<tr>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									</tr>
+									<tr>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									</tr>
+									<tr>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									</tr>
+									</table>
+								</fieldset>
+								<fieldset>
+									<legend>Attribute Direct input</legend>
+									<dl class="se2_t_proper1">
+									<dt><input type="radio" id="se2_tbp1" name="se2_tbp" checked><label for="se2_tbp1">Attribute Direct input</label></dt>
+									<dd>
+										<dl class="se2_t_proper1_1">
+										<dt><label>Border Style</label></dt>
+										<dd><div class="se2_select_ty1"><span class="se2_b_style3 husky_se2m_table_border_style_preview"></span><button type="button" title="more" class="se2_view_more"><span>more</span></button></div>
+											<!-- 레이어 : 테두리스타일 -->
+											<div class="se2_layer_b_style husky_se2m_table_border_style_layer" style="display:none">
+												<ul>
+												<li><button type="button" class="se2_b_style1"><span class="se2m_no_border">No Borders</span></button></li>
+												<li><button type="button" class="se2_b_style2"><span><span>Border1</span></span></button></li>
+												<li><button type="button" class="se2_b_style3"><span><span>Border2</span></span></button></li>
+												<li><button type="button" class="se2_b_style4"><span><span>Border3</span></span></button></li>
+												<li><button type="button" class="se2_b_style5"><span><span>Border4</span></span></button></li>
+												<li><button type="button" class="se2_b_style6"><span><span>Border5</span></span></button></li>
+												<li><button type="button" class="se2_b_style7"><span><span>Border6</span></span></button></li>
+												</ul>
+											</div>
+											<!-- //레이어 : 테두리스타일 -->
+										</dd>
+										</dl>
+										<dl class="se2_t_proper1_1 se2_t_proper1_2">
+										<dt><label for="se2_b_width">Border Weight</label></dt>
+										<dd><input id="se2_b_width" name="" type="text" maxlength="2" value="1" class="input_ty1">
+											<button type="button" title="Add 1px" class="se2_add se2m_incBorder"><span>Add 1px</span></button>
+											<button type="button" title="Minus1px" class="se2_del se2m_decBorder"><span>Minus1px</span></button>
+										</dd>
+										</dl>
+										<dl class="se2_t_proper1_1 se2_t_proper1_3">
+										<dt><label for="se2_b_color">Border Color</label></dt>
+										<dd><input id="se2_b_color" name="" type="text" maxlength="7" value="#cccccc" class="input_ty3"><span class="se2_pre_color"><button type="button" style="background:#cccccc;"><span>Find a color</span></button></span>	
+										<!-- 레이어 : 테두리색 -->
+											<div class="se2_layer se2_b_t_b1" style="clear:both;display:none;position:absolute;top:20px;left:-147px;">
+												<div class="se2_in_layer husky_se2m_table_border_color_pallet">
+												</div>
+											</div>
+										<!-- //레이어 : 테두리색-->
+										</dd>
+										</dl>
+										<div class="se2_t_dim0"></div><!-- 테두리 없음일때 딤드레이어 -->
+										<dl class="se2_t_proper1_1 se2_t_proper1_4">
+										<dt><label for="se2_cellbg">Cell BG</label></dt>
+										<dd><input id="se2_cellbg" name="" type="text" maxlength="7" value="#000000" class="input_ty3"><span class="se2_pre_color"><button type="button" style="background:#000000;"><span>Find a color</span></button></span>		<!-- 레이어 : 셀배경색 -->
+										<div class="se2_layer se2_b_t_b1" style="clear:both;display:none;position:absolute;top:20px;left:-147px;">
+											<div class="se2_in_layer husky_se2m_table_bgcolor_pallet">
+											</div>
+										</div>
+										<!-- //레이어 : 셀배경색-->
+										</dd>
+										</dl>
+									</dd>
+									</dl>
+								</fieldset>
+								<fieldset>
+									<legend>Table Style</legend>
+									<dl class="se2_t_proper2">
+									<dt><input type="radio" id="se2_tbp2" name="se2_tbp"><label for="se2_tbp2">Select a style</label></dt>
+									<dd><div class="se2_select_ty2"><span class="se2_t_style1 husky_se2m_table_style_preview"></span><button type="button" title="more" class="se2_view_more"><span>more</span></button></div>
+										<!-- 레이어 : 표템플릿선택 -->
+										<div class="se2_layer_t_style husky_se2m_table_style_layer" style="display:none">
+											<ul class="se2_scroll">
+											<li><button type="button" class="se2_t_style1"><span>Table1</span></button></li>
+											<li><button type="button" class="se2_t_style2"><span>Table2</span></button></li>
+											<li><button type="button" class="se2_t_style3"><span>Table3</span></button></li>
+											<li><button type="button" class="se2_t_style4"><span>Table4</span></button></li>
+											<li><button type="button" class="se2_t_style5"><span>Table5</span></button></li>
+											<li><button type="button" class="se2_t_style6"><span>Table6</span></button></li>
+											<li><button type="button" class="se2_t_style7"><span>Table7</span></button></li>
+											<li><button type="button" class="se2_t_style8"><span>Table8</span></button></li>
+											<li><button type="button" class="se2_t_style9"><span>Table9</span></button></li>
+											<li><button type="button" class="se2_t_style10"><span>Table10</span></button></li>
+											<li><button type="button" class="se2_t_style11"><span>Table11</span></button></li>
+											<li><button type="button" class="se2_t_style12"><span>Table12</span></button></li>
+											<li><button type="button" class="se2_t_style13"><span>Table13</span></button></li>
+											<li><button type="button" class="se2_t_style14"><span>Table14</span></button></li>
+											<li><button type="button" class="se2_t_style15"><span>Table15</span></button></li>
+											<li><button type="button" class="se2_t_style16"><span>Table16</span></button></li>
+											</ul>
+										</div>
+										<!-- //레이어 : 표템플릿선택 -->
+									</dd>
+									</dl>
+								</fieldset>
+								<p class="se2_btn_area">
+									<button type="button" class="se2_apply"><span>Apply</span></button><button type="button" class="se2_cancel"><span>Cancel</span></button>
+								</p>
+								<!-- 딤드레이어 -->
+								<div class="se2_t_dim3"></div>
+								<!-- //딤드레이어 -->
+							</div>
+						</div>
+	
+					</div>
+					<!-- //표 -->
+				</li>
+				<li class="husky_seditor_ui_findAndReplace"><button type="button" title="Find Replace" class="se2_find"><span>Find Replace</span></button>
+					<!-- 찾기/바꾸기 -->
+					<div class="se2_layer husky_se2m_findAndReplace_layer" style="margin-left:-238px;">
+						<div class="se2_in_layer">
+							<div class="se2_bx_find_revise">
+								<button type="button" title="Close" class="se2_close husky_se2m_cancel"><span>Close</span></button>
+								<h3>Find Replace</h3>
+								<ul>
+								<li class="active"><button type="button" class="se2_tabfind"><span>Find</span></button></li>
+								<li><button type="button" class="se2_tabrevise"><span>Replace</span></button></li>
+								</ul>
+								<div class="se2_in_bx_find husky_se2m_find_ui" style="display:block">
+									<dl>
+									<dt><label for="find_word">Find_Word</label></dt><dd><input type="text" id="find_word" value="스마트에디터" class="input_ty1"></dd>
+									</dl>
+									<p class="se2_find_btns">
+										<button type="button" class="se2_find_next husky_se2m_find_next"><span>Next</span></button><button type="button" class="se2_cancel husky_se2m_cancel"><span>Cancel</span></button>
+									</p>
+								</div>
+								<div class="se2_in_bx_revise husky_se2m_replace_ui" style="display:none">
+									<dl>
+									<dt><label for="find_word2">Find_word</label></dt><dd><input type="text" id="find_word2" value="스마트에디터" class="input_ty1"></dd>
+									<dt><label for="revise_word">Replace_word</label></dt><dd><input type="text" id="revise_word" value="스마트 에디터" class="input_ty1"></dd>
+									</dl>
+									<p class="se2_find_btns">
+										<button type="button" class="se2_find_next2 husky_se2m_replace_find_next"><span>Find Next</span></button><button type="button" class="se2_revise1 husky_se2m_replace"><span>Replace</span></button><button type="button" class="se2_revise2 husky_se2m_replace_all"><span>Replace All</span></button><button type="button" class="se2_cancel husky_se2m_cancel"><span>Cancel</span></button>
+									</p>
+								</div>
+								<button type="button" title="Close" class="se2_close husky_se2m_cancel"><span>Close</span></button>
+							</div>
+						</div>
+					</div>
+					<!-- //찾기/바꾸기 -->
+				</li>
+				</ul>
+			</div>
+		</div>		
+		<hr>
+		<!-- 입력 -->
+		<div class="se2_input_area husky_seditor_editing_area_container">
+			<iframe src="about:blank" id="se2_iframe" name="se2_iframe" class="se2_input_wysiwyg" width="400" height="377" frameborder="0" scrolling="yes" title="Writing area : To exit, press the key combination Shift + ESC" style="display:block;" ></iframe>
+			<textarea name="" rows="10" cols="100" title="HTML" class="se2_input_syntax se2_input_htmlsrc" style="display:none;outline-style:none;resize:none;">&lt;p&gt;&lt;/p&gt;</textarea>
+			<textarea name="" rows="10" cols="100" title="TEXT" class="se2_input_syntax se2_input_text" style="display:none;outline-style:none;resize:none;"> </textarea>
+			<!-- 표/리뷰쓰기퀵에디터 -->
+			<div class="quick_wrap">
+				<div class="q_table_wrap"> 
+				<button type="button" title="최대화" class="_fold se2_qmax q_open_table_full" style="position:absolute; display:none;top:340px;left:210px;z-index:10;"><span>Minimize</span></button>
+				<div class="_full se2_qeditor se2_table_set" style="position:absolute;display:none;top:135px;left:661px;z-index:10;">
+					<div class="se2_qbar q_dragable"><span class="se2_qmini"><button class="q_open_table_fold" title="최소화"><span>Minimize</span></button></span></div>
+					<div class="se2_qbody0">
+						<div class="se2_qbody">
+							<dl class="se2_qe1">
+							<dt>Insertion</dt><dd><button type="button" title="addrow" class="se2_addrow"><span>Add row</span></button><button type="button" title="Insert Column" class="se2_addcol"><span>Add col</span></button></dd>
+							<dt>Division</dt><dd><button type="button" title="seprow" class="se2_seprow"><span>Sep row</span></button><button type="button" title="sepcol" class="se2_sepcol"><span>Sep col</span></button></dd>
+							<dt>Deletion</dt><dd><button type="button" title="delrow" class="se2_delrow"><span>Del row</span></button><button type="button" title="delcol" class="se2_delcol"><span>Del col</span></button></dd>
+							<dt>Merge</dt><dd><button type="button" title="merrow" class="se2_merrow"><span>Merr ow</span></button></dd>
+							</dl>
+							<div class="se2_qe2 se2_qe2_3">
+								<!-- 샐배경색 -->
+								<dl class="se2_qe2_1">
+								<dt><input type="radio" class="husky_se2m_radio_bgc" id="se2_cellbg2" name="se2_tbp3" checked><label for="se2_cellbg2">Cell BG</label></dt>
+								<dd><span class="se2_pre_color"><button class="husky_se2m_table_qe_bgcolor_btn" type="button" style="background:#000000;"><span>Find a color</span></button></span>		
+									<!-- layer:셀배경색 -->
+									<div class="se2_layer se2_b_t_b1" style="display:none;position:absolute;top:20px;left:0px;">
+										<div class="se2_in_layer husky_se2m_tbl_qe_bg_paletteHolder">
+										</div>
+									</div>
+									<!-- //layer:셀배경색-->
+								</dd>
+								</dl>
+								<!-- //샐배경색 -->
+								<!-- 배경이미지선택 -->
+								<dl class="se2_qe2_2 husky_se2m_tbl_qe_review_bg" style="display:block">
+								<dt><input type="radio" class="husky_se2m_radio_bgimg" id="se2_cellbg3" name="se2_tbp3"><label for="se2_cellbg3">Image</label></dt>
+								<dd><span class="se2_pre_bgimg"><button type="button" class="se2_cellimg1 husky_se2m_table_qe_bgimage_btn"><span>Select BG image</span></button></span>		
+									<!-- layer:배경이미지선택 -->
+									<div class="se2_layer se2_b_t_b1" style="display:none;position:absolute;top:20px;left:-155px;">
+										<div class="se2_in_layer husky_se2m_tbl_qe_bg_img_paletteHolder">
+											<ul class="se2_cellimg_set">
+											<li><button type="button" class="se2_cellimg0"><span>No background</span></button></li>
+											<li><button type="button" class="se2_cellimg1"><span>background1</span></button></li>
+											<li><button type="button" class="se2_cellimg2"><span>background2</span></button></li>
+											<li><button type="button" class="se2_cellimg3"><span>background3</span></button></li>
+											<li><button type="button" class="se2_cellimg4"><span>background4</span></button></li>
+											<li><button type="button" class="se2_cellimg5"><span>background5</span></button></li>
+											<li><button type="button" class="se2_cellimg6"><span>background6</span></button></li>
+											<li><button type="button" class="se2_cellimg7"><span>background7</span></button></li>
+											<li><button type="button" class="se2_cellimg8"><span>background8</span></button></li>
+											<li><button type="button" class="se2_cellimg9"><span>background9</span></button></li>
+											<li><button type="button" class="se2_cellimg10"><span>background10</span></button></li>
+											<li><button type="button" class="se2_cellimg11"><span>background11</span></button></li>
+											<li><button type="button" class="se2_cellimg12"><span>background12</span></button></li>
+											<li><button type="button" class="se2_cellimg13"><span>background13</span></button></li>
+											<li><button type="button" class="se2_cellimg14"><span>background14</span></button></li>
+											<li><button type="button" class="se2_cellimg15"><span>background15</span></button></li>
+											<li><button type="button" class="se2_cellimg16"><span>background16</span></button></li>
+											<li><button type="button" class="se2_cellimg17"><span>background17</span></button></li>
+											<li><button type="button" class="se2_cellimg18"><span>background18</span></button></li>
+											<li><button type="button" class="se2_cellimg19"><span>background19</span></button></li>
+											<li><button type="button" class="se2_cellimg20"><span>background20</span></button></li>
+											<li><button type="button" class="se2_cellimg21"><span>background21</span></button></li>
+											<li><button type="button" class="se2_cellimg22"><span>background22</span></button></li>
+											<li><button type="button" class="se2_cellimg23"><span>background23</span></button></li>
+											<li><button type="button" class="se2_cellimg24"><span>background24</span></button></li>
+											<li><button type="button" class="se2_cellimg25"><span>background25</span></button></li>
+											<li><button type="button" class="se2_cellimg26"><span>background26</span></button></li>
+											<li><button type="button" class="se2_cellimg27"><span>background27</span></button></li>
+											<li><button type="button" class="se2_cellimg28"><span>background28</span></button></li>
+											<li><button type="button" class="se2_cellimg29"><span>background29</span></button></li>
+											<li><button type="button" class="se2_cellimg30"><span>background30</span></button></li>
+											<li><button type="button" class="se2_cellimg31"><span>background31</span></button></li>
+											</ul>
+										</div>
+									</div>
+									<!-- //layer:배경이미지선택-->
+								</dd>
+								</dl>
+								<!-- //배경이미지선택 -->
+							</div>
+							<dl class="se2_qe3 se2_t_proper2" style="display:none">
+							<dt><input type="radio" class="husky_se2m_radio_template" id="se2_tbp4" name="se2_tbp3"><label for="se2_tbp4">Table Style</label></dt>
+							<dd>
+								<div class="se2_qe3_table">
+								<div class="se2_select_ty2"><span class="se2_t_style1"></span><button type="button" title="more" class="se2_view_more husky_se2m_template_more"><span>more</span></button></div>
+								<!-- layer:표스타일 -->
+								<div class="se2_layer_t_style" style="display:none;top:33px;left:0;margin:0;">
+									<ul>
+									<li><button type="button" class="se2_t_style1"><span>Table1</span></button></li>
+									<li><button type="button" class="se2_t_style2"><span>Table2</span></button></li>
+									<li><button type="button" class="se2_t_style3"><span>Table3</span></button></li>
+									<li><button type="button" class="se2_t_style4"><span>Table4</span></button></li>
+									<li><button type="button" class="se2_t_style5"><span>Table5</span></button></li>
+									<li><button type="button" class="se2_t_style6"><span>Table6</span></button></li>
+									<li><button type="button" class="se2_t_style7"><span>Table7</span></button></li>
+									<li><button type="button" class="se2_t_style8"><span>Table8</span></button></li>
+									<li><button type="button" class="se2_t_style9"><span>Table9</span></button></li>
+									<li><button type="button" class="se2_t_style10"><span>Table10</span></button></li>
+									<li><button type="button" class="se2_t_style11"><span>Table11</span></button></li>
+									<li><button type="button" class="se2_t_style12"><span>Table12</span></button></li>
+									<li><button type="button" class="se2_t_style13"><span>Table13</span></button></li>
+									<li><button type="button" class="se2_t_style14"><span>Table14</span></button></li>
+									<li><button type="button" class="se2_t_style15"><span>Table15</span></button></li>
+									<li><button type="button" class="se2_t_style16"><span>Table16</span></button></li>
+									</ul>
+								</div>
+								<!-- //layer:표스타일 -->
+								</div>
+							</dd>
+							</dl>
+							<div class="se2_btn_area" style="display:none">
+								<button type="button" class="se2_btn_save"><span>Save my review</span></button>
+							</div>
+							<div class="se2_qdim0 husky_se2m_tbl_qe_dim1"></div>
+							<div class="se2_qdim3 husky_se2m_tbl_qe_dim2"></div>
+							<div class="se2_qdim6c husky_se2m_tbl_qe_dim_del_col"></div>
+							<div class="se2_qdim6r husky_se2m_tbl_qe_dim_del_row"></div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<!-- //표/리뷰쓰기퀵에디터 -->
+			</div>
+		</div>
+		<!-- //입력 -->
+		<!-- 입력창조절/ 모드전환 -->
+		<div class="se2_conversion_mode">
+			<button type="button" class="se2_inputarea_controller husky_seditor_editingArea_verticalResizer" title="Input window resize"><span>Input window resize</span></button>
+			<ul class="se2_converter">
+			<li class="active"><button type="button" class="se2_to_editor"><span>Editor</span></button></li>	
+			<li class=""><button type="button" class="se2_to_html"><span>HTML</span></button></li>		
+			<li class=""><button type="button" class="se2_to_text" title="HTML"><span>TEXT</span></button></li>		
+			</ul>
+		</div>
+		<!-- //입력창조절/ 모드전환 -->
+		<hr>
+	</div>
+</div>
+</body>
+</html>

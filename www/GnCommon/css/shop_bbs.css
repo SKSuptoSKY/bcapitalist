@@ -1,0 +1,28 @@
+/*±âº»(basic_white) board */
+/*list / view*/
+.shop_boardtb {width:100%; font-size:12px; line-height:18px; border-top:2px solid #ccc;}
+.shop_boardtb th {height:35px; background:#f9f9f9; color:#444; border-top:1px solid #ccc; border-bottom:1px solid #e1e1e1; text-align:center;}
+.shop_boardtb td {padding:5px; border-top:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;}
+.shop_boardtb .ttal {text-align:center;}
+.shop_boardtb .last {border-bottom:1px solid #e1e1e1;}
+.shop_boardtb td a:hover {color:#222;}
+.shop_baordsc {float:right; font-size:12px; line-height:18px; }
+.shop_baordsc .bginput {width:180px; height:24px; border:1px solid #e1e1e1; background:#f5f5f5; line-height:22px;}
+
+/*shop_boardlist_publication*/
+.shop_boardlist {width:100%; font-size:12px; line-height:18px; border-top:1px solid #ccc; border-bottom:1px solid #e1e1e1;}
+.shop_boardlist th {height:30px; font-size:12px; color:#444; text-align:center; border-top:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1; background:#f9f9f9;}
+.shop_boardlist td {font-size:12px; border-top:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1; text-align:left; padding-left:10px;}
+.shop_boardlist input, textarea {border:1px solid #e1e1e1;}
+
+.shop_coment_tb {width:100%; font-size:12px; line-height:18px; border-top:1px solid #939393; border-bottom:1px solid #e1e1e1;}
+.shop_coment_tb th {height:35px; font-size:13px; color:#777; text-align:center; border-top:1px solid #e1e1e1; background:#fbfbfb;}
+.shop_coment_tb td {font-size:12px; border-top:1px solid #e1e1e1; text-align:left; padding-left:10px;}
+.shop_coment_tb input, textarea {border:1px solid #e1e1e1;}
+
+/* botton */
+.shop_bd_btn {margin-top:30px; padding:0;}
+.shop_bd_btn .admin {float:left;}
+
+.shop_bd_btn2 { float:left; padding-top:30px; padding-bottom:30px; float:right;}
+.shop_bd_btn2 img {vertical-align:top;}

@@ -1,0 +1,62 @@
+/* Web Design developer (http://www.mobilewow.co.kr) : OBS */ 
+/* Type Selector */
+body	 	{	margin:0px; padding:0px;
+				scrollbar-3dlight-color:#FFFFFF;
+				scrollbar-arrow-color:#CCCCCC;
+				scrollbar-track-color:#F9F9F9;
+				scrollbar-darkshadow-color:#FFFFFF;
+				scrollbar-face-color:#FFFFFF;
+				scrollbar-highlight-color:#CCCCCC;
+				scrollbar-shadow-color:#CCCCCC;
+				background-position:center top;;
+			}
+td ,th		{	font-family:"Dotum";
+				color:#666666;
+				font-size:11px;
+				line-height:12pt;
+				letter-spacing:0px;
+				table-layout:fixed;
+				
+}
+/*word-break:break-all;*/
+
+input ,select{	border-left:1px solid #D8D8D8;
+				border-top:1px solid #D8D8D8;
+				border-right:1px solid #D8D8D8;
+				border-bottom:1px solid #D8D8D8;
+				background-color:#FBFBFB;
+				font-family:"Dotum";
+				color:#666666;
+				height:17px;
+				font-size :11px;
+}
+textarea 	{	border:1px solid #D8D8D8;
+				font-family:"Dotum"; 
+				color:#666666; 
+				font-size :11px; 
+				padding:2px; 
+				background-color:#FBFBFB;
+				scrollbar-3dlight-color:#FFFFFF;
+				scrollbar-arrow-color:#CCCCCC;
+				scrollbar-track-color:#F9F9F9;
+				scrollbar-darkshadow-color:#FFFFFF;
+				scrollbar-face-color:#FFFFFF;
+				scrollbar-highlight-color:#CCCCCC;
+				scrollbar-shadow-color:#CCCCCC;
+}
+
+form,p									{margin:0px;  padding:0px;}
+img, fieldset, button					{border:0px;}
+.check_input							{border:0px;}
+hr, button								{display:none;}
+img										{border:0px;}
+a:link									{font-family:"Dotum"; font-size:12px ;text-decoration:none; color:#666666 ;line-height:14px;letter-spacing:0px;}
+a:active								{font-family:"Dotum"; font-size:12px ;text-decoration:none; color:#666666 ;line-height:14px;letter-spacing:0px;}
+a:visited								{font-family:"Dotum"; font-size:12px ;text-decoration:none; color:#666666 ;line-height:14px;letter-spacing:0px;}
+a:hover 								{font-family:"Dotum"; font-size:12px ;text-decoration:none; color:#B63364 ;line-height:14px;letter-spacing:0px; font-weight:bold;}
+
+.mail_title { color:#333333; font-size:15px; font-weight:bold; padding:3 10 3 60px;}
+.text_mail {line-height:150%;}
+.title_01 {color: #000000;font-weight: bold;}
+.sub_text {color: #336600;font-weight: bold;}
+.mail_won {color: #E55600;font-weight: bold;}

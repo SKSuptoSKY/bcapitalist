@@ -1,0 +1,229 @@
+var uzipurl  = "http://gamgakdesign.com/addr_ajax.php";
+var uzipid = "zipContent";
+var uzippages = 10;
+
+$(function() { 
+  $("#search_btn").click(function(){ 
+      var addr = $('#addr1').val();
+      var type = $('#type1').val();
+      var mode = $('#mode').val();
+      var page = 1;
+    
+      if (!addr) {
+        alert("검색어를 입력하세요!");
+        return;
+      }
+      
+      zipsearch(page);
+  }); 
+});
+
+function zipsearch(page)
+{
+
+	  var url = uzipurl;
+
+	  var param = "?action=go&status=good"
+
+		var addr = $('#addr1').val();
+		var type = $('#type1').val();
+		var mode = $('#mode').val();
+	
+		  $.ajax(
+		   {
+			url:url,
+
+			type:"GET",
+
+			async:false,
+
+			contentType:"application/json",
+
+			dataType:"jsonp",
+			data: { 
+			  "addr": addr
+			  ,"type": type
+			  ,"mode": mode
+			  ,"page": page
+			},
+
+			crossDomain: true,
+
+			success:function(data){
+
+              $("#" + uzipid + "").html("");
+              if (data.error) {
+                alert(data.error); 
+                window.close();
+                return false;
+              } else {
+                var str = "";
+                str += '<div class="search_zip_result">';
+                if (mode != 'p2') {
+					str += '<table cellspacing="0" class="list_table">';
+					str += '<col width="70">';
+					str += '<col width="*">';
+					str += '<col width="220">';
+					str += '<thead>';
+					str += '<tr>';
+					str += '<th>우편번호</th>';
+					str += '<th class="left">도로명주소</th>';
+					str += '<th class="left">지번주소</th>';
+					str += '</tr>';
+					str += '</thead>';
+					str += '<tbody>';
+                } else {
+					str += '<table cellspacing="0" class="list_table">';
+					str += '<col width="70">';
+					str += '<col width="*">';
+					str += '<thead>';
+					str += '<tr>';
+					str += '<th>우편번호</th>';
+					str += '<th class="left">주소</th>';
+					str += '</tr>';
+					str += '</thead>';
+					str += '<tbody>';
+                }
+
+                for(var i=0; i<data.uzip.length; i++) {
+                  ZIPCODE1 = data.uzip[i].zip1;
+                  ZIPCODE2 = data.uzip[i].zip2;
+                  SIDO = data.uzip[i].sido;
+                  GUGUN = data.uzip[i].gugun;
+                  STREET = data.uzip[i].street;
+                  BUILDINGNUM1 = data.uzip[i].buildingnum1;
+                  BUILDINGNUM2 = data.uzip[i].buildingnum2;
+
+                  BLDGCODE = data.uzip[i].bldgcode;
+                  LI = data.uzip[i].li;
+                  APT = data.uzip[i].apt2;
+                  ADDR = data.uzip[i].addr;
+                  BUILDING = data.uzip[i].building;
+                  DONG = data.uzip[i].dong;
+                  if (BUILDINGNUM2 > 0)
+                    BUILDINGNUM2_l = "-" + BUILDINGNUM2;
+                  else 
+                    BUILDINGNUM2_l = "";
+                  //alert(BUILDING); 
+                  if (mode != 'p2') {
+  		              str += '<tr onmouseover="this.className=\'list_on\';" onmouseout="this.className=\'\';">';
+                    str += '<td>' + ZIPCODE1 + "-" + ZIPCODE2 + '</td>';
+                    str += '<td class="left"><a href="#" onclick="find_zip(\'' + ZIPCODE1 + '\', \'' + ZIPCODE2 + '\', \'' + SIDO + ' ' + GUGUN + ' ' + STREET + ' ' + BUILDINGNUM1 + '' + BUILDINGNUM2_l + '\', \'' + BUILDING + '\');">' + SIDO + ' ' + GUGUN + ' ' + STREET + ' ' + BUILDINGNUM1 + '' + BUILDINGNUM2_l + '</a></td>';
+                    str += '<td class="left">' + SIDO + ' ' + GUGUN + ' ' + DONG +  ' ' + BLDGCODE + '</td>';
+                    str += '</tr>';
+		              } else {
+		                str += '<tr onmouseover="this.className=\'list_on\';" onmouseout="this.className=\'\';">';
+                    str += '<td>' + ZIPCODE1 + "-" + ZIPCODE2 + '</td>';
+                    str += '<td class="left"><a href="#" onclick="find_zip(\'' + ZIPCODE1 + '\', \'' + ZIPCODE2 + '\', \'' + SIDO + ' ' + GUGUN + ' ' + DONG + ' ' + LI + ' ' + APT + '\', \'' + BUILDING + '\');">' + ADDR + '</a></td>';
+                    str += '</tr>';
+		              }
+                }
+                if (data.total_count < '1') {
+                  str += '<tr>';
+                  str += '<td';
+                  if (mode != 'p2') {
+                  str += ' colspan="3"';
+                  } else {
+                  str += ' colspan="2"';
+                  }
+                  str += ' class="nolist">검색결과가 없습니다.</td>';
+                  str += '</tr>';
+                }
+                
+				  str += '</tbody>';
+				  str += '</table>';
+				  
+				  str += '<div class="search_zip_page">';
+				  str += '<table cellpadding=0 cellspacing=0>';
+				  str += '<tr>';
+				  str += '<td>'
+				  
+				  str += zip_paging(uzippages, data.cur_page, data.total_page);
+				  
+				  str += '</td>';
+				  str += '</tr>';
+				  str += '</table>';
+				  str += '</div>';
+				  str += '</div>';
+				  }
+				  
+				  $("#" + uzipid + "").html(str);
+
+    },
+
+    error:function(e){
+     alert(e.messages);
+    },
+    jsonp: 'jsonp'
+   }
+  );
+}
+
+function zip_paging(write_pages, cur_page, total_page)
+{
+      
+    var str = "<ul>";
+    
+    if (cur_page > 1) {
+        str += "<li><a class=home href='#' onclick='zipsearch(1)' title=\"처음 페이지\">[처음]</a></li>";
+    }
+   
+    start_page = ( ( parseInt( (cur_page - 1 ) / write_pages ) ) * write_pages ) + 1;
+    end_page = start_page + write_pages - 1;
+    
+    if (end_page >= total_page) end_page = total_page;
+    
+    if (start_page > 1) str += "<li><a class=pre href='#' onclick='zipsearch(" + (start_page-1) + ")' title=\"이전 페이지\">[이전]</a></li>";
+
+    if (total_page > 1) {
+        for (var k=start_page; k<=end_page; k++) {
+            if (cur_page != k)
+                str += "<li><a class=nm href='#' onclick='zipsearch(" + k + ")'><span>" + k + "</span></a></li>";
+            else
+                str += "<li class=on><a class=nm href='#'><b>" + k + "</b></a></li>";
+        }
+    }
+    
+    if (total_page > end_page) str += "<li><a class=next href='#' onclick='zipsearch(" + (end_page+1) + ")' title=\"다음 페이지\">[다음]</a></li>";
+    
+    if (cur_page < total_page) {
+        str += "<li><a class=end href='#' onclick='zipsearch(" + total_page + ")' title=\"맨끝 페이지\">[맨끝]</a></li>";
+    }
+    
+    
+    str += "</ul>";
+    
+   return str;
+}
+
+function zipLoad(page)
+{ 
+  zipsearch(page);
+}
+
+
+function win_open(url, name, option)
+{
+    var popup = window.open(url, name, option);
+    popup.focus();
+}
+
+// 우편번호 창
+function win_zip(frm_name, frm_zip1, frm_addr1, frm_addr2)
+{
+    url = "/addr_zip/zip.php?mode=p2&frm_name="+frm_name+"&frm_zip1="+frm_zip1+"&frm_addr1="+frm_addr1+"&frm_addr2="+frm_addr2;
+    win_open(url, "winZip", "left=50,top=50,width=650,height=550,scrollbars=0");
+}
+
+// 마우스 오른쪽 버튼 사용 금지
+try{document.attachEvent('oncontextmenu', function() {return false;});} catch(e) {}
+
+$(function() {
+    var sw = screen.width;
+    var sh = screen.height;
+    var cw = document.body.clientWidth;
+    var ch = document.body.clientHeight;
+    var top  = sh / 2 - ch / 2 - 100;
+    var left = sw / 2 - cw / 2;
+    moveTo(left, top);
+});

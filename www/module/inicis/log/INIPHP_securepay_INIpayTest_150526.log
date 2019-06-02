@@ -1,0 +1,215 @@
+INFO	[2015-05-26 17:13:00:712] <26127> START INIPHP chkfake (V5034-120709)(OS:Linux2.6.32-504.8.1.el6.x86_64,PHP:5.2.17)
+DEBUG	[2015-05-26 17:13:00:754] <26127> inipayhome:/home/utftest/html/module/inicis
+DEBUG	[2015-05-26 17:13:00:754] <26127> type:chkfake
+DEBUG	[2015-05-26 17:13:00:754] <26127> debug:true
+DEBUG	[2015-05-26 17:13:00:754] <26127> enctype:asym
+DEBUG	[2015-05-26 17:13:00:754] <26127> admin:1111
+DEBUG	[2015-05-26 17:13:00:754] <26127> checkopt:false
+DEBUG	[2015-05-26 17:13:00:754] <26127> mid:INIpayTest
+DEBUG	[2015-05-26 17:13:00:754] <26127> price:10000
+DEBUG	[2015-05-26 17:13:00:754] <26127> nointerest:no
+DEBUG	[2015-05-26 17:13:00:754] <26127> quotabase:lumpsum:00:02:03:04:05:06:07:08:09:10:11:12
+INFO	[2015-05-26 17:13:00:754] <26127> Check Field OK
+INFO	[2015-05-26 17:13:00:773] <26127> MERCHANT PRIV KEY LOAD OK
+INFO	[2015-05-26 17:13:00:827] <26127> MERCHANT PUB KEY LOAD OK []
+INFO	[2015-05-26 17:13:00:835] <26127> CHKFAKE KEY MAKE OK:MjAxNTA1MjYxNzEzMDA4Mjc0MDYwNA==
+
+INFO	[2015-05-26 17:13:00:835] <26127> END chkfake  Laptime:[0.14sec]
+INFO	[2015-05-26 17:13:00:835] <26127> ===============================================================
+INFO	[2015-05-26 17:13:15:190] <26127> START INIPHP securepay (V5034-120709)(OS:Linux2.6.32-504.8.1.el6.x86_64,PHP:5.2.17)
+DEBUG	[2015-05-26 17:13:15:190] <26127> inipayhome:/home/utftest/html/module/inicis
+DEBUG	[2015-05-26 17:13:15:190] <26127> type:securepay
+DEBUG	[2015-05-26 17:13:15:190] <26127> pgid:INIphpVBNK
+DEBUG	[2015-05-26 17:13:15:190] <26127> subpgip:203.238.3.10
+DEBUG	[2015-05-26 17:13:15:190] <26127> admin:1111
+DEBUG	[2015-05-26 17:13:15:190] <26127> debug:true
+DEBUG	[2015-05-26 17:13:15:190] <26127> uid:
+DEBUG	[2015-05-26 17:13:15:190] <26127> goodname:test2
+DEBUG	[2015-05-26 17:13:15:190] <26127> currency:WON
+DEBUG	[2015-05-26 17:13:15:190] <26127> mid:INIpayTest
+DEBUG	[2015-05-26 17:13:15:190] <26127> rn:MjAxNTA1MjYxNzEzMDA4Mjc0MDYwNA==
+
+DEBUG	[2015-05-26 17:13:15:190] <26127> price:10000
+DEBUG	[2015-05-26 17:13:15:190] <26127> enctype:
+DEBUG	[2015-05-26 17:13:15:190] <26127> buyername:Í¥ÄÎ¶¨Ïûê
+DEBUG	[2015-05-26 17:13:15:190] <26127> buyertel:010-7558-4205
+DEBUG	[2015-05-26 17:13:15:190] <26127> buyeremail:sky9s@naver.com
+DEBUG	[2015-05-26 17:13:15:190] <26127> paymethod:VBank
+DEBUG	[2015-05-26 17:13:15:190] <26127> encrypted:Version=4.1&PayMethod=VBank&RsaKeyNum=1&EncryptionAlgorithm=SEED-CBC&SignAlgorithm=RSAwithSHA1&CertVer=39&moid=8046044577&ver_trace=main(6095,6058)vbank(6031,6033)n(6008)Cs(6025)Dt(6002)Pa(6002)Cf(6024)Fv(0000)La(6153)Re(6104)Vr(6006)P(6033)en(6051)nP(6006)&pg1=211.219.96.180&pg2=211.219.96.180&pg1ip=211.219.96.180&pg2ip=211.219.96.180&agreeflag=1111&Data=sjBILuJveRhzf4+PG++tvkEd+bePE16vLMcDrm9imJrKtRTaZ5vh66oT4lEUKjbZ
+YZ3VYe5gBf2am0hPLrsRPnmmQnJ3IsTh79V+l11hW2Q03DcyP5fFhy67WZkADrcO
+uqrc7y92onFgFmc2x8RVvfPeonPoJhYqtJm/ipfjG9ja7OvEfqVbD0SzfkdOFBQo
+sNyeKXX/51wxOp04UadZzf3ib2Ow7CzmtI6jfrzzRJizBdfADJz0Q58H5gD3Gr42
+s0cL408X1yvuFC0jYA/txmimYW53RDxN+5aCq98ILIkvKscXtmSCpxzLclTZ+yYM
+RwpSh03LUw6IlNWHrCwjgnqBh7ADHmAmtcL8ffEpFR2bH1vEvFovN7NGrICvkqwb
+b7DLQMJoRHCmW3hMCow9du+tKzHNYdPD6yR88Gj70JsUzteI62NT24GaAYAtDtUi
+7MefRglt6dV8yHv8CPt6P5cHXAUSVfZZ44NvrPC5YcL3oQ==
+DEBUG	[2015-05-26 17:13:15:190] <26127> sessionkey:q/kBxXmEDaiahUv/v5VLQ69DOp2PJGOhVIAgyRwISYvn3GGEm0dVgYTBWwKxvAOD
+ncsdyMYkWYinuRlPlqSsp/foEB8lJyitWg2lnelYJ8b8TlQ9ebuCRvwVA3nVLO8i
+a+O/sjWPcQ+GmdO1JGS9afB2jo8HOJJocerogV+PAYM=
+DEBUG	[2015-05-26 17:13:15:190] <26127> url:http://gamgakutftest.gamgakdesign.com
+DEBUG	[2015-05-26 17:13:15:190] <26127> cardcode:
+DEBUG	[2015-05-26 17:13:15:190] <26127> parentemail:
+DEBUG	[2015-05-26 17:13:15:190] <26127> recvname:
+DEBUG	[2015-05-26 17:13:15:190] <26127> recvtel:
+DEBUG	[2015-05-26 17:13:15:190] <26127> recvaddr:
+DEBUG	[2015-05-26 17:13:15:190] <26127> recvpostnum:
+DEBUG	[2015-05-26 17:13:15:190] <26127> recvmsg:
+DEBUG	[2015-05-26 17:13:15:190] <26127> joincard:
+DEBUG	[2015-05-26 17:13:15:190] <26127> joinexpire:
+DEBUG	[2015-05-26 17:13:15:190] <26127> id_customer:
+INFO	[2015-05-26 17:13:15:191] <26127> Check Field OK
+INFO	[2015-05-26 17:13:15:191] <26127> Make TID OK INIphpVBNKINIpayTest20150526171315911300
+INFO	[2015-05-26 17:13:15:191] <26127> PI PUB KEY LOAD OK [39]
+INFO	[2015-05-26 17:13:15:204] <26127> PG PUB KEY LOAD OK [30]
+INFO	[2015-05-26 17:13:15:204] <26127> MERCHANT PRIV KEY LOAD OK
+INFO	[2015-05-26 17:13:15:204] <26127> MERCHANT PUB KEY LOAD OK [0]
+INFO	[2015-05-26 17:13:15:206] <26127> MAKE BODY OK
+INFO	[2015-05-26 17:13:15:207] <26127> SIGN OK
+INFO	[2015-05-26 17:13:15:207] <26127> MAKE HEAD OK
+INFO	[2015-05-26 17:13:15:207] <26127> MSG_TO_PG:[0248100175R SHA1                   0                  39                  300200INIpayTest               10000INIphpVBNKINIpayTest20150526171315911300<?xml version="1.0" encoding="UTF-8"?>
+<INIpay>
+	  <GoodsInfo>
+	    <GoodsCnt>1</GoodsCnt>
+	    <MOID/>
+	    <Currency>WON</Currency>
+	    <Tax/>
+	    <TaxFree/>
+	    <Goods>
+	      <SMID>INIpayTest</SMID>
+	      <GoodsName urlencode="1">test2</GoodsName>
+	      <GoodsPrice>10000</GoodsPrice></Goods></GoodsInfo>
+	  <BuyerInfo>
+	    <BuyerName urlencode="1">%EA%B4%80%EB%A6%AC%EC%9E%90</BuyerName>
+	    <BuyerTel>010-7558-4205</BuyerTel>
+	    <BuyerEmail urlencode="1">sky9s%40naver.com</BuyerEmail>
+	    <ParentEmail/>
+	    <RecvName/>
+	    <RecvTel/>
+	    <RecvMsg/>
+	    <RecvAddr/>
+	    <RecvPostNum/></BuyerInfo>
+	  <PaymentInfo>
+	    <Payment>
+	      <PayMethod>VBank</PayMethod>
+	      <JoinCard/>
+	      <JoinExpire/>
+	      <MailOrder/>
+	      <SessionKey>q/kBxXmEDaiahUv/v5VLQ69DOp2PJGOhVIAgyRwISYvn3GGEm0dVgYTBWwKxvAOD
+ncsdyMYkWYinuRlPlqSsp/foEB8lJyitWg2lnelYJ8b8TlQ9ebuCRvwVA3nVLO8i
+a+O/sjWPcQ+GmdO1JGS9afB2jo8HOJJocerogV+PAYM=</SessionKey>
+	      <Encrypted urlencode="1">Version%3D4.1%26PayMethod%3DVBank%26RsaKeyNum%3D1%26EncryptionAlgorithm%3DSEED-CBC%26SignAlgorithm%3DRSAwithSHA1%26CertVer%3D39%26moid%3D8046044577%26ver_trace%3Dmain%286095%2C6058%29vbank%286031%2C6033%29n%286008%29Cs%286025%29Dt%286002%29Pa%286002%29Cf%286024%29Fv%280000%29La%286153%29Re%286104%29Vr%286006%29P%286033%29en%286051%29nP%286006%29%26pg1%3D211.219.96.180%26pg2%3D211.219.96.180%26pg1ip%3D211.219.96.180%26pg2ip%3D211.219.96.180%26agreeflag%3D1111%26Data%3DsjBILuJveRhzf4%2BPG%2B%2BtvkEd%2BbePE16vLMcDrm9imJrKtRTaZ5vh66oT4lEUKjbZ%0D%0AYZ3VYe5gBf2am0hPLrsRPnmmQnJ3IsTh79V%2Bl11hW2Q03DcyP5fFhy67WZkADrcO%0D%0Auqrc7y92onFgFmc2x8RVvfPeonPoJhYqtJm%2FipfjG9ja7OvEfqVbD0SzfkdOFBQo%0D%0AsNyeKXX%2F51wxOp04UadZzf3ib2Ow7CzmtI6jfrzzRJizBdfADJz0Q58H5gD3Gr42%0D%0As0cL408X1yvuFC0jYA%2FtxmimYW53RDxN%2B5aCq98ILIkvKscXtmSCpxzLclTZ%2ByYM%0D%0ARwpSh03LUw6IlNWHrCwjgnqBh7ADHmAmtcL8ffEpFR2bH1vEvFovN7NGrICvkqwb%0D%0Ab7DLQMJoRHCmW3hMCow9du%2BtKzHNYdPD6yR88Gj70JsUzteI62NT24GaAYAtDtUi%0D%0A7MefRglt6dV8yHv8CPt6P5cHXAUSVfZZ44NvrPC5YcL3oQ%3D%3D</Encrypted></Payment></PaymentInfo>
+	  <ReservedInfo>
+	    <MReserved1/>
+	    <MReserved2/>
+	    <MReserved3/></ReservedInfo>
+	  <ManageInfo>
+	    <Language/>
+	    <URL urlencode="1">http%3A%2F%2Fgamgakutftest.gamgakdesign.com</URL>
+	    <TXVersion>5034B120709securLinux     PHPchkfake   2.6.32-504.8.1.el6.x86_64PHP:5</TXVersion>
+	    <TXUserID/>
+	    <TXRegNum/>
+	    <Ack>1</Ack>
+	    <TXRN>MjAxNTA1MjYxNzEzMDA4Mjc0MDYwNA==
+</TXRN></ManageInfo></INIpay>dXYeWuNiT/pk5clgaZcU35Y7MU8neQvSJugOLAxIHiFoc6bjevpJAS/dglFuaPBG
+9GGVigHa5oogHmbKrZqThh2PkrUkHF1t3dqoCdQX9tbCjZQVA9I862xa2LMbMGm+
+8apHVuLCii7cpw22ELZaIpiiS8WtO6jPQ4d0raerpZU=
+]
+INFO	[2015-05-26 17:13:15:224] <26127> DNS LOOKUP OK(211.219.96.180:211.219.96.180:34049) laptime:0
+INFO	[2015-05-26 17:13:15:226] <26127> SOCKET CONNECT OK
+INFO	[2015-05-26 17:13:15:226] <26127> SEND OK
+INFO	[2015-05-26 17:13:15:473] <26127> RECV OK
+INFO	[2015-05-26 17:13:15:473] <26127> MSG_FROM_PG:[0251800175D SHA1                   0                  39                  300210INIpayTest               10000INIphpVBNKINIpayTest20150526171315911300<?xml version="1.0" encoding="UTF-8"?>
+<INIpay>
+  <GoodsInfo>
+    <GoodsCnt>1</GoodsCnt>
+    <MOID urlencode="1">8046044577</MOID>
+    <Currency>WON</Currency>
+    <Goods no="1">
+      <SMID>INIpayTest</SMID>
+      <GoodsName urlencode="1">test2</GoodsName>
+      <GoodsCntS>1</GoodsCntS>
+      <GoodsPrice>10000</GoodsPrice>
+    </Goods>
+  </GoodsInfo>
+  <PaymentInfo>
+    <Payment>
+      <SessionKey>ugDyeliRoCGmm1/3VchW3zS7PyqmgFKiPTPIJ4e02GqI71NdWP32oOR/A8V4Usrw
+k2efPNSQi0r2QWVaIa0qZ75fhLNGwQPVFLqwdfIiTmVuvbjEdEsZwgbvlAdp6MtB
+w83mpaw7cQAcsHB6ntemcoGEPK3OpMMZjOaUu80FEKVyyu0hJ/iqHw==
+</SessionKey>
+      <Encrypted>1hakeadcP3kdyrch3CtNySsv28/TqZv4WAuxPzaSUi/bbSIXQaHXfPW6sCPb8fUw
+PZIHW5gwBQyx2t9uropI8u/CeXXv5ncF+80SCVyRcKFWGgd0GW3q90t1ikKtlkw+
+YnBlOYqV3pVS+DWqKGShdUvhjgLa3Y2s5lt62SGV5X8tkHUd4dmOdRqbvLGYY34B
+72UH6BQwNH9sLChCCzZCQY1LWc8p/bJ/MY8FnU0Hzy3k2SUNq37qy6niwfnbfnh/
+/UjiwI3EV/KpkIXbb8NoekitKDFtE7XJOE6iDqGB0s/5r34+GBwODboX9mp6Xj9s
+4mZ65oIwL++fpgBqv5L4pT/XDHkQ0yFSm0g6fV9cF5bZGfJb9xHreL4L9PZKpAnb
++6sP1r9MVHktNwMSGNSELk3aZoaUL6lnyZGyJ5vH7bD2yhc8vXnrY0bl6Ww+eqmP
+t536j5XvhYNFrMf9U+zuhAJbGYlm7rA7maWP0T5PriATLyC1S8t0P8uVZspPu+dX
+LPe7drmQZ+msl/S1oQFsV3faQaVnOJT1XZ6xkQrOSxdGBI8oesDIScIwlFoyQLsc
+zCxf0vvgIxpAXSOXSDNnDMBKr5vrHYUT4oI9qazKrpvhDDDEw/qfCmOMm/akAUn2
+TfHeGcPqb4zLc6cE7NPQT7A29N/QROrm1Ko4h8eKQ5h59cqxHNC7kLmJs6nxd39I
+m9cOGXntn5rYrrRi22YZDPLD/EfHZutVensX+cbfbPh6DlFFcexVBDg4eMmB5SV6
+ZQSU5ZNJRmOy4yAfaTfImt3ufWf0gFwVx4rSMLzxLsT3mpghtOVjYlDWLPAIwPoP
+5p6+jIMc0svLE+KSPNWkQ/aSAL+bK4mSWY7RSl1naOBNOwHCVRU7dB7Zo72gaZ9V
+pczA2BSOUUH4dPytkpapd6WQCT8CQNwn9nFIToa0XH8dB8SDgM6fy07jC/756L2p
+GssEbPTnhUI/wH1dXKC/KSI56uquLPdPFFDRguCrJXC6u896Y1mGZF4+XK1P/TWy
+UDvijForZWM10KKaRfUneVhXns3a+t0fHvXBeTrBFFAtCvbNzONPwA8j1iBrF5XZ
+G42cTZwKo5KhfmxGc7h6i0eaXaARzJ0EafxI71zLQWwz1WAN7/J2L83JAaJrZBPX
+DhPrSJxcqf8P++rjgRG/hG53R08HHqME/42Yn6H0PtA=
+</Encrypted>
+      <PayMethod>VBank</PayMethod>
+      <ResultCode>170000</ResultCode>
+      <ResultMsg urlencode="1">%C1%A4%BB%F3%C3%B3%B8%AE%B5%C7%BE%FA%BD%C0%B4%CF%B4%D9.</ResultMsg>
+    </Payment>
+  </PaymentInfo>
+  <ManageInfo>
+    <EventCode></EventCode>
+    <OrgCurrency></OrgCurrency>
+    <ExchangeRate></ExchangeRate>
+    <OrgPrice></OrgPrice>
+  </ManageInfo>
+  <ReservedInfo>
+    <MReserved1 urlencode="1"></MReserved1>
+    <MReserved2 urlencode="1"></MReserved2>
+    <MReserved3 urlencode="1"></MReserved3>
+    <PGReserved1 urlencode="1"></PGReserved1>
+    <PGReserved2 urlencode="1"></PGReserved2>
+    <PGReserved3 urlencode="1"></PGReserved3>
+  </ReservedInfo>
+</INIpay>
+W43RR8PCote0Tk9tWFSH/9gD41MzLbT2NcyZZur51FkJP99/T/ApzY+O6qw9ys1B
+AaTEMSJ4AeTRXWLHf0hbJvXMwoXQ7ZpC55pY4uPKoGum387oRstDVC4Z0J1TxZpp
+KErCX9HQAloFTHCAlQ7brz/Rk1JQvLjNogTNDi1BEQE=
+]
+INFO	[2015-05-26 17:13:15:473] <26127> VERIFY OK
+INFO	[2015-05-26 17:13:15:473] <26127> PARSE HEAD OK
+INFO	[2015-05-26 17:13:15:475] <26127> PARSE BODY OK
+INFO	[2015-05-26 17:13:15:510] <26127> DECRYPT OK
+DEBUG	[2015-05-26 17:13:15:510] <26127> DECRYPT MSG:[<?xml version="1.0" encoding="UTF-8"?>
+<PaymentInfo>
+  <Payment>
+    <EASYPAY/>
+    <VBank>
+      <VACT_Num>45389012463203</VACT_Num>
+      <VACT_BankCode>04</VACT_BankCode>
+      <VACT_Date>20150526</VACT_Date>
+      <VACT_Time></VACT_Time>
+      <VACT_InputName urlencode="1">%B0%FC%B8%AE%C0%DA</VACT_InputName>
+      <VACT_Name urlencode="1">%C0%CC%B4%CF%BD%C3%BD%BA%A2%DF%C5%D7%BD%BA%C6%AE%C0%D4</VACT_Name>
+      <VACT_RefundName urlencode="1"></VACT_RefundName>
+      <VACT_RefundBankCode></VACT_RefundBankCode>
+      <VACT_RefundNum></VACT_RefundNum>
+      <VACT_ApplPrice>10000</VACT_ApplPrice>
+      <VACT_ApplDate>20150526</VACT_ApplDate>
+      <VACT_ApplTime>171316</VACT_ApplTime>
+      <VACT_ResultCode>170000</VACT_ResultCode>
+      <VACT_ResultMsg urlencode="1">%C1%A4%BB%F3%C3%B3%B8%AE%B5%C7%BE%FA%BD%C0%B4%CF%B4%D9.</VACT_ResultMsg>
+    </VBank>
+  </Payment>
+</PaymentInfo>]
+INFO	[2015-05-26 17:13:15:511] <26127> DECRYPT PARSE OK
+INFO	[2015-05-26 17:13:15:511] <26127> WAIT ACK INVOKING
+DEBUG	[2015-05-26 17:13:15:511] <26127> MAKE HEAD OK
+INFO	[2015-05-26 17:13:15:513] <26127> SUCCESS ACK INVOKING
+INFO	[2015-05-26 17:13:15:513] <26127> END securepay ¡§ªÛ√≥∏Æµ«æ˙Ω¿¥œ¥Ÿ. Laptime:[0.32sec]
+INFO	[2015-05-26 17:13:15:513] <26127> ===============================================================
